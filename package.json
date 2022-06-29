@@ -1,0 +1,33 @@
+{
+  "name": "fablab-website",
+  "version": "1.0.0",
+  "description": "<img src=\"http://getkirby.com/assets/images/github/plainkit.jpg\" width=\"300\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareldecoeneKDG/fablab-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kareldecoeneKDG/fablab-website/issues"
+  },
+  "homepage": "https://github.com/kareldecoeneKDG/fablab-website#readme",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "lightbox2": "^2.11.3"
+  }
+}

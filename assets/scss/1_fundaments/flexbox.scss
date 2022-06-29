@@ -1,0 +1,41 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.margin-left-none {
+    margin-left: 0 !important;
+}
+
+
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .flex-row-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        flex: 1 1 0px;
+
+        > div {
+            width: 100%;
+        }
+
+        .form-control {
+            width: 50%;
+        }
+    }
+
+    .flex-column-desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

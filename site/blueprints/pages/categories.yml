@@ -1,0 +1,74 @@
+title: Machines
+
+tabs:
+  content:
+    icon: text
+    columns:
+      left:
+        width: 1/3
+        sections:
+          drafts:
+            extends: sections/categories
+            headline: Drafts
+            status: draft
+
+          unlisted:
+            extends: sections/categories
+            headline: In Review
+            status: unlisted
+      right:
+        width: 1/3
+        sections:
+          listed:
+            extends: sections/categories
+            headline: Published
+            status: listed
+
+      otherRight:
+        width: 1/3
+        sections:
+        fields:
+          titlePage:
+            label: Pagina titel
+            type: text
+          paragraph:
+            label: Paragraaf
+            type: writer
+            inline: true
+
+
+# sections:
+#   published:
+#     headline: Published Categories
+#     type: pages
+#     layout: cards
+#     template: category
+#     text: "{{ page.title }}"
+#     info: "{{ page.category }}"
+#     status: listed
+#     help: Voeg eerst een draft toe. Vervolledig deze en verander dan status naar 'listed' om een project toe te voegen.
+#     #status: unlisted
+#     #status: drafts
+#     #status: published
+#     limit: 6
+#     image:
+#       ratio: 3/2
+#       cover: true
+
+#   drafts:
+#     headline: Drafts
+#     type: pages
+#     layout: list
+#     template: category
+#     text: "{{ page.title }}"
+#     info: "Category: {{ page.category }}"
+#     status: draft
+#     help: Always upload a nice cover first
+#     #status: unlisted
+#     #status: listed
+#     #status: published
+#     image:
+#       ratio: 3/2
+#       cover: true
+
+

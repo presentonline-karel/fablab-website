@@ -1,0 +1,286 @@
+.container-reserve {
+    .reservation {
+        &__h2 {
+            margin-left: $margin-side-mobile;
+            margin-right: $margin-side-mobile;
+        }
+
+        &__h1 {
+            margin-left: $margin-side-mobile;
+            margin-right: $margin-side-mobile;
+        }
+
+        &__p {
+            margin-left: $margin-side-mobile;
+            margin-right: $margin-side-mobile;
+        }
+
+        &__buttoncontainer {
+            padding-left: $margin-side-mobile;
+            padding-right: $margin-side-mobile;
+            width: 100%;
+
+            &__button {
+                width: 100%;
+                text-align: center;
+                margin: 30px 0px 50px 0px;
+            }
+        }
+
+        &__imgcontainer {
+            &__img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .info {
+        margin-left: $margin-side-mobile;
+        margin-right: $margin-side-mobile;
+
+        &__item {
+            background-color: $neutrals-0;
+            border: 2px solid $neutrals-6;
+            border-radius: $border-radius-big;
+            //padding-left: 22px;
+            //padding-right: 22px;
+            padding: 15px 22px;
+            margin-bottom: 30px;
+
+            &__iconContainer {
+                &__icon {
+                    position: relative;
+                    top: 15%;
+                    font-size: 35px;
+                }
+            }
+
+            &__text {
+                margin-left: 20px;
+
+                h3 {
+                    margin-top: 0;
+                }
+            }
+        }
+
+        &__item:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .container-reserve {
+        .reservation {
+            &__h2 {
+                margin-left: $margin-side-tablet-portrait;
+                margin-right: $margin-side-tablet-portrait;
+            }
+        
+            &__h1 {
+                margin-left: $margin-side-tablet-portrait;
+                margin-right: $margin-side-tablet-portrait;
+            }
+        
+            &__p {
+                margin-left: $margin-side-tablet-portrait;
+                margin-right: $margin-side-tablet-portrait;
+            }
+        
+            &__buttoncontainer {
+                padding-left: $margin-side-tablet-portrait;
+                padding-right: $margin-side-tablet-portrait;
+                width: 100%;
+        
+                &__button {
+                    width: 100%;
+                    text-align: center;
+                    margin: 30px 0px 50px 0px;
+                }
+            }
+
+            &__imgcontainer {
+                &__img {
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+
+        .info {
+            margin-left: $margin-side-tablet-portrait;
+            margin-right: $margin-side-tablet-portrait;
+        }
+    }
+}
+
+
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .container-reserve {
+        .flex-row-desktop {
+            gap: 50px;
+        }
+
+        .reservation {
+            margin-left: $margin-side-tablet-landscape;
+            margin-right: $margin-side-tablet-landscape;
+
+            &__h2 {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        
+            &__h1 {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        
+            &__p {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        
+            &__buttoncontainer {
+                padding-left: 0;
+                padding-right: 0;
+                width: 100%;
+        
+                &__button {
+                    width: 100%;
+                    text-align: center;
+                    margin: 30px 0px 50px 0px;
+                    margin-bottom: 0;
+                }
+            }
+
+            &__imgcontainer {
+                width: 150%;
+
+                &__img {
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+                    margin-bottom: 0px;
+                    margin-top: 50px;
+                    border-radius: $border-radius-big;
+                }
+            }
+        }
+
+        .info {
+            margin-top: 100px;
+            margin-left: $margin-side-tablet-landscape;
+            margin-right: $margin-side-tablet-landscape;
+
+            &__item {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .container-reserve {
+        .reservation {
+            margin-left: $margin-side-desktop;
+            margin-right: $margin-side-desktop;
+
+            &__buttoncontainer {
+                &__button:hover {
+                    cursor: pointer;
+                }
+            }
+
+            &__imgcontainer {
+                &__img {
+                    height: 375px;
+                }
+            }
+        }
+
+        .info {
+            margin-left: $margin-side-desktop;
+            margin-right: $margin-side-desktop;
+        }
+    }
+}
+
+
+
+// DESKTOP - 1440PX
+@media screen and (min-width: $desktop-1440) {
+    .container-reserve {
+        .reservation {
+            &__imgcontainer {
+                &__img {
+                    height: 350px;
+                }
+            }
+        }
+    }
+}
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .container-reserve {
+        .reservation {
+            margin-left: $margin-side-hd;
+            margin-right: $margin-side-hd;
+        }
+
+        .info {
+            margin-left: $margin-side-hd;
+            margin-right: $margin-side-hd;
+        }
+    }
+}
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .container-reserve {
+        .reservation {
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+        }
+
+        .info {
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+        }
+    }
+}
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .container-reserve {
+        .reservation {
+            margin-left: $margin-side-4k;
+            margin-right: $margin-side-4k;
+        }
+
+        .info {
+            margin-left: $margin-side-4k;
+            margin-right: $margin-side-4k;
+        }
+    }
+}

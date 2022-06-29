@@ -1,0 +1,178 @@
+Title: FabLab Website
+
+----
+
+Address: Salesianenlaan 90, 2660 Hoboken
+
+----
+
+Email: fablab@kdg.be
+
+----
+
+Socials:
+
+- 
+  social: facebook
+  url: https://www.facebook.com
+- 
+  social: instagram
+  url: https://www.instagram.com
+- 
+  social: kdg
+  url: https://www.kdg.be
+- 
+  social: linkedin
+  url: https://www.linkedin.com
+
+----
+
+Openhourstitle: Openingsuren
+
+----
+
+Openhourskdgtitle: KdG-medewerkers/studenten
+
+----
+
+Openhourskdgtext: ma - do: 9.00u - 17.00u
+
+----
+
+Openhoursexterntitle: Open lab momenten
+
+----
+
+Openhoursexterntext: woe - do: 13.00u - 17.00u
+
+----
+
+Navigationtitle: Navigatie
+
+----
+
+Navigationlinks:
+
+- 
+  anchor: Home
+  page:
+    - home
+  pages:
+    - home
+- 
+  anchor: Machines
+  page:
+    - categories
+  pages:
+    - categories
+- 
+  anchor: Reserveren
+  page:
+    - reserve
+  pages:
+    - reserve
+- 
+  anchor: Blog
+  page:
+    - blog
+  pages:
+    - blog
+- 
+  anchor: Contact
+  page:
+    - contact
+  pages:
+    - contact
+
+----
+
+Infotitle: Info
+
+----
+
+Infolinks:
+
+- 
+  anchor: FAQ
+  page:
+    - faq
+  pages: [ ]
+- 
+  anchor: Huisregels
+  page:
+    - house-rules
+  pages: [ ]
+- 
+  anchor: Prijslijst
+  page:
+    - price-list
+  pages: [ ]
+- 
+  anchor: Wat is Fablab
+  page:
+    - what-is-fablab
+  pages: [ ]
+
+----
+
+Kdgimage:
+
+- footer-kdg.png
+
+----
+
+Provinceantwerpimage:
+
+- footer-provinciea.png
+
+----
+
+Partnersfooter:
+
+- 
+  logo:
+    - footer-kdg.png
+  website: https://www.kdg.be/
+- 
+  logo:
+    - footer-provinciea.png
+  website: https://www.provincieantwerpen.be/
+
+----
+
+Admins:
+
+- 
+  email: ceelenders@hotmail.com
+  admintype: bewerker
+  admin-type: bewerker
+- 
+  email: cedric.lenders@student.kdg.be
+  admintype: lezer
+  admin-type: lezer
+
+----
+
+Fablablogo:
+
+- fablab_logo.svg
+
+----
+
+Flagimage: - be.svg
+
+----
+
+Faviconapple: - apple-touch-icon.png
+
+----
+
+Favicon32: - favicon-32x32.png
+
+----
+
+Favicon16: - favicon-16x16.png
+
+----
+
+Safaripinnedtab: 

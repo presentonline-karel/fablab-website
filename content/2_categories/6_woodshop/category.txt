@@ -1,0 +1,50 @@
+Title: Woodshop
+
+----
+
+Info: De woodshop, het hout-atelier, is de ouderwetse voorloper van het Fablab. Houtbewerking is de vaardigheid om voorwerpen van hout te maken, zoals bv. het maken van meubelen, houtsnijwerk, schrijnwerk, timmerwerk en houtdraaien.
+
+----
+
+Technologie: Naast een aantal klassieke machines voor houtbewerking en werkgerief dat je vaak aantreft in een houtatelier, beschikken we ook over een grote CNC freesmachine, en een desktop CNC, en verschillende handige tools.
+
+----
+
+Designsoftwaretext: 
+
+----
+
+Designsoftwarelinks: 
+
+----
+
+Inspirationlinks: 
+
+----
+
+Creations: 
+
+----
+
+Thumbnail:
+
+- woodshop-1.png
+
+----
+
+Materialen: Triplex
+
+----
+
+Gallery:
+
+- cnc2.webp
+- cnc.jpg
+
+----
+
+Designsoftware: Als u een passage uit Lorum Ipsum gaat gebruiken dient u zich ervan te verzekeren dat er niets beschamends midden in de tekst verborgen zit.
+
+----
+
+Inspiratie: gecombineerd met een handvol zinsstructuur modellen om een Lorum Ipsum te genereren die redelijk overkomt. De gegenereerde Lorum Ipsum

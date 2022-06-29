@@ -1,0 +1,107 @@
+.arrow-container {
+    //display: none;
+    position: fixed;
+    bottom: 30px;
+    right: $margin-side-mobile;
+    width: 60px;
+    height: 60px;
+
+    &__link {
+        background-color: $primary;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        border: 2px solid $primary;
+        padding: 17px;
+
+        i::before {
+            width: 23px;
+            height: 23px;
+            font-size: 23px;
+            color: $neutrals-1;
+        }
+    }
+}
+
+
+#myBtn-arrow {
+    display: none;
+    z-index: 98;
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .arrow-container {
+        right: $margin-side-tablet-portrait;
+        width: 75px;
+        height: 75px;
+        bottom: 50px;
+
+        &__link {
+            width: 75px;
+            height: 75px;
+            padding: 25px;
+        }
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .arrow-container {
+        right: $margin-side-tablet-landscape;
+    }
+}
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    #arrow-up-container {
+        margin-top: 130px;
+    }
+
+    .arrow-container {
+        right: $margin-side-desktop;
+
+        &__link:hover {
+            background-color: $neutrals-1;
+            border: 2px solid $neutrals-9;
+            color: $neutrals-9;
+            cursor: pointer;
+            transition: 0.5s;
+
+            i::before {
+                color: $neutrals-9;
+            }
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .arrow-container {
+        right: $margin-side-hd;
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    #arrow-up-container {
+        padding-right: 0;
+    }
+
+    .arrow-container {
+        right: $margin-side-qhd;
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    #arrow-up-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .arrow-container {
+        right: $margin-side-4k;
+    }
+}

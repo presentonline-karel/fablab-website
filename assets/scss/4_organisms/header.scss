@@ -1,0 +1,30 @@
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    .header {
+        &__languagebutton {
+            display: inline;
+            width: 70px;
+            vertical-align: middle;
+            height: 20px;
+            position: relative;
+    
+            &__span {
+                font-size: $h3-font-size-mobile;
+                font-family: $primary-font;
+                font-weight: 700;
+                color: $neutrals-10;
+                line-height: 20px;
+                position: absolute;
+                top: 0%;
+                left: 40px;
+            }
+    
+            &__flag {
+                width: 33px;
+                height: 20px;
+                display: inline;
+                object-fit: cover;
+            }
+        }
+    }
+}

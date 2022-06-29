@@ -1,0 +1,76 @@
+title: Machine
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          amount:
+            label: Amount of Machines
+            type: number
+            default: 1
+          type:
+            type: text
+          manufactur:
+            type: text
+          buildVolume:
+            type: text
+          nozzle:
+            type: text
+          filament:
+            type: text
+          layerHeights:
+            type: text
+          layerResolution:
+            type: text
+          bed:
+            type: text
+          extraSpecs:
+            label: All extra info
+            type: writer
+            inline: true
+          
+          software:
+            type: url
+          manual:
+            type: url
+          tutorials:
+            label: Tutorials
+            type: structure
+            fields:
+              title:
+                label: title
+                type: text
+              url:
+                label: url
+                type: url
+          creation:
+            type: url
+          isAvailable:
+            label: IsAvailable
+            type: radio
+            options:
+              yes: beschikbaar
+              no: niet beschikbaar
+
+
+  - width: 1/2
+    sections:
+      filetypes:
+        type: fields
+        fields:
+          filetypes:
+            label: Supported File Types
+            type: checkboxes
+            options: query
+              pla: PLA
+              wood-filaments: Wood filaments
+              flex: Flex
+              pte: PTE
+
+      gallery:
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1

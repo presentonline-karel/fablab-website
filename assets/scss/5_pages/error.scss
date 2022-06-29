@@ -1,0 +1,79 @@
+.container-error {
+    position: relative;
+
+    &__text-container {
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+
+        &__link {
+            padding: $button-big-padding;
+            background-color: $primary;
+            color: $neutrals-10;
+            font-weight: 700;
+            border-radius: $border-radius-small;
+            margin-left: 10px;
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    .container-error {
+        &__text-container {
+            top: 23%;
+            left: 43%;
+        }
+    }
+}
+
+// DESKTOP - 1366PX
+@media only screen and (min-width: $desktop-1366) {
+    .container-error {
+        &__text-container {
+            top: 26%;
+            left: 43%;
+        }
+    }
+}
+
+// DESKTOP - 1536PX
+@media only screen and (min-width: $desktop-1536) {
+    .container-error {
+        &__text-container {
+            top: 26%;
+            left: 44%;
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .container-error {
+        &__text-container {
+            top: 30%;
+            left: 43%;
+        }
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .container-error {
+        &__text-container {
+            top: 33%;
+            left: 42%;
+        }
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .container-error {
+        &__text-container {
+            top: 40%;
+            left: 45%;
+        }
+    }
+}

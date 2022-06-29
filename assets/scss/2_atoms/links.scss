@@ -1,0 +1,7 @@
+.content-article {
+    &__text-wrapper {
+        &__a:hover {
+            border-bottom: 4px solid $primary;
+        }
+    }
+}

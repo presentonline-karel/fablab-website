@@ -1,0 +1,17 @@
+// MOBILE
+.container-blog {
+    &__tag-filter {
+        overflow: auto;
+        white-space: nowrap;
+        margin-bottom: 5px;
+    }
+}
+
+.lineTags {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-right: $margin-side-mobile;
+    margin-top: 20px;
+    color: $neutrals-3;
+}

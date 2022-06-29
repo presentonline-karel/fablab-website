@@ -1,0 +1,6 @@
+type: pages
+headline: Categories
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: category
+empty: No categories yet
+sortBy: date desc

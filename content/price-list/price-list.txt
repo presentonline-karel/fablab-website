@@ -1,0 +1,142 @@
+Title: Prijslijst
+
+----
+
+Standardmaterials: Het KdG FabLab heeft een aantal standaardmaterialen in stock. De aankoop dient onmiddellijk met Bancontact betaald te worden aan één van de FabLab medewerkers, betalen met cash is niet mogelijk.
+
+----
+
+Ownmaterials: Eigen materialen kunnen meegebracht en gebruikt worden, steeds na controle van één van de FabLab medewerkers. De instellingen van onze materialen kennen we, houd er rekening mee dat je de juiste instellingen van je eigen materialen nog even zal moeten uitzoeken.
+
+----
+
+Machinestartupcost:
+
+- 
+  machine: Laser
+  costintern: 2
+  costextern: 3
+  costcompany: 5
+  cost: "3"
+- 
+  machine: 3D printer
+  costintern: 3
+  costextern: 3
+  costcompany: 3
+- 
+  machine: CNC
+  costintern: 5
+  costextern: 10
+  costcompany: 10
+
+----
+
+Materials:
+
+- 
+  name: MDF
+  materialitem:
+    - 
+      detail: 3mm
+      color: /
+      size: 30x60cm
+      pricekdg: "3"
+      priceextern: "4"
+      pricecompany: "4"
+      instock: 'false'
+    - 
+      detail: 4mm
+      color: /
+      size: 30x60cm
+      pricekdg: "3"
+      priceextern: "4"
+      pricecompany: "4"
+      instock: 'true'
+- 
+  name: Triplex
+  materialitem:
+    - 
+      detail: 3mm
+      color: Berk
+      size: 40x70cm
+      pricekdg: "10"
+      priceextern: "11"
+      pricecompany: "11"
+      instock: 'true'
+- 
+  name: Plexi XT (extruded)
+  materialitem:
+    - 
+      detail: 2mm
+      color: Transparant
+      size: 30x60cm
+      pricekdg: "8"
+      priceextern: "9"
+      pricecompany: "9"
+      instock: 'true'
+- 
+  name: Plexi GS (cast)
+  materialitem:
+    - 
+      detail: 2mm
+      color: Transparant
+      size: 30x60cm
+      pricekdg: "11"
+      priceextern: "12"
+      pricecompany: "12"
+      instock: 'true'
+- 
+  name: Plexi (cast)
+  materialitem:
+    - 
+      detail: 3mm
+      color: Zwart
+      size: 30x60cm
+      pricekdg: "17"
+      priceextern: "18"
+      pricecompany: "18"
+      instock: 'true'
+- 
+  name: 3D Print Filament
+  materialitem:
+    - 
+      detail: PLA
+      color: meerdere kleuren
+      size: per 100g
+      pricekdg: "4"
+      priceextern: "8"
+      pricecompany: "8"
+      instock: 'true'
+- 
+  name: Textiel Transfermedia (vinyl)
+  materialitem:
+    - 
+      detail: classic
+      color: meerdere kleuren
+      size: 15x30cm
+      pricekdg: "2"
+      priceextern: "3"
+      pricecompany: "3"
+      instock: 'true'
+- 
+  name: Snijfolie
+  materialitem:
+    - 
+      detail: vinyl
+      color: ---
+      size: 10x60cm
+      pricekdg: "2"
+      priceextern: "3"
+      pricecompany: "3"
+      instock: 'true'
+- 
+  name: Maskingtape
+  materialitem:
+    - 
+      detail: papier
+      color: ---
+      size: 10x60cm
+      pricekdg: "2"
+      priceextern: "3"
+      pricecompany: "3"
+      instock: 'true'

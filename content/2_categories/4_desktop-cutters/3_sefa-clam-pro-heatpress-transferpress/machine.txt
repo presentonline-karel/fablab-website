@@ -1,0 +1,53 @@
+Title: Sefa Clam Pro Heatpress – Transferpress
+
+----
+
+Type: Heatpress
+
+----
+
+Manufactur: Sefa
+
+----
+
+Buildvolume: Bed : 400 x 500mm, Max. dikte 15 mm
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: 
+
+----
+
+Manual: https://www.sefa.fr/en/clam-presses/1260-air-clam-x-v3.html
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

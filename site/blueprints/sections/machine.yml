@@ -1,0 +1,6 @@
+type: pages
+headline: Machine
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: machine
+empty: No machines yet
+sortBy: date desc

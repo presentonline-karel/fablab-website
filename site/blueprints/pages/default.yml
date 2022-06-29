@@ -1,0 +1,16 @@
+title: Default
+
+fields:
+  emails:
+    label: Emails
+    type: structure
+    default:
+      - email: bastian@getkirby.com
+      - email: lukas@getkirby.com
+      - email: nico@getkirby.com
+      - email: sonja@getkirby.com
+    fields:
+      email:
+        label: Email
+        type: email
+

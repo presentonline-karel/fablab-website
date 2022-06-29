@@ -1,0 +1,199 @@
+// MOBILE
+
+// To fix apple default look of button on all buttons ->
+/* button {
+    -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+} */
+
+.button-small {
+    display: inline-block;
+
+    font-family: $primary-font;
+    font-size: $p-big-font-size-mobile;
+    font-weight: 700;
+
+    color: $neutrals-0;
+    background-color: $neutrals-10;
+
+    border: none;
+    border-radius: $border-radius-small;
+
+    margin-left: $margin-side-mobile;
+    margin-right: $margin-side-mobile;
+    padding: $button-small-padding;
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.button-big {
+    border: 1px solid $primary;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+.button-big:hover {
+    cursor: pointer;
+    background-color: $primary-opacity;
+    color: $neutrals-10;
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+.button-big:focus {
+    border: 1px solid $primary;
+    background-color: $neutrals-0;
+    color: $neutrals-10;
+    box-shadow: none;
+}
+
+.button-small {
+    background-color: $primary;
+    color: $neutrals-10;
+    border: 1px solid $primary;
+}
+
+.button-small:hover {
+    background-color: $primary-opacity;
+    color: $neutrals-10;
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+.button-small:focus {
+    border: 1px solid $primary;
+    background-color: $neutrals-0;
+    color: $neutrals-10;
+    box-shadow: none;
+}
+
+.button-reserveer {
+    border: none;
+    border-radius: $border-radius-small;
+    margin-left: 0;
+    margin-right: 0;
+    padding: $button-small-padding;
+}
+
+.price-list-button {
+    
+}
+
+
+
+// BLOG
+.container-blog {
+    &__tag-filter {
+        &__button-tag {
+            background-color: $neutrals-6;
+            border: none;
+            font-weight: bold;
+            color: $neutrals-10;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: $tag-font-size-mobile;
+            margin-right: 5px;
+            cursor: pointer;
+            border-radius: $border-radius-middle;
+            margin-bottom: 5px;
+        }
+
+        &__button-tag:hover {
+            background-color: $primary;
+            transition: 0.3s;
+        }
+
+        &__button-tag:focus {
+            background-color: $primary;
+        }
+    }
+}
+.blog-wrapper {
+    &__blog-overview {
+        &__text-wrapper {
+            &__link {
+                display: inline-block;
+                margin-left: 0;
+                margin-right: auto;
+                padding: 10px;
+                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.button-home {
+    background-color: $primary;
+    color: $neutrals-10;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .button-small {
+        margin-left: $margin-side-tablet-portrait;
+        margin-right: $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .button-small {
+        margin-left: $margin-side-tablet-landscape;
+        margin-right: $margin-side-tablet-landscape;
+    }
+}
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    // GENERAL BUTTONS
+    .button-home {
+        background-color: $primary;
+        color: $neutrals-10;
+        margin-left: $margin-side-desktop;
+        margin-right: $margin-side-desktop;
+    }
+
+    .button-reserveer {
+        margin: 0;
+    }
+}
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    // GENERAL BUTTONS
+    .button-home {
+        margin-left: $margin-side-hd;
+    }
+}
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    // GENERAL BUTTONS
+    .button-home {
+        margin-left: $margin-side-qhd;
+    }
+}
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    // GENERAL BUTTONS
+    .button-home {
+        margin-left: $margin-side-4k;
+    }
+}

@@ -1,0 +1,60 @@
+Title: AR/VR Studio
+
+----
+
+Info: Door zeer geavanceerde graphics, de beste software en hardware en artistiek weergegeven ervaringen laat VR ons nieuwe werelden verkennen, ontwerp-obstakels trotseren en het onmogelijke proberen. Dankzij de magie van ‘aanwezigheid’ - het gevoel dat je dezelfde ruimte deelt met anderen - kunnen we het ook samen doen en een volledige interactieve 3D-omgeving uitbouwen.
+
+----
+
+Technologie: Virtual Reality / VR heeft een enorm potentieel om de manier waarop we de wereld om ons heen spelen, werken, leren, communiceren en ervaren te transformeren. Het heeft nu al een positieve invloed op de manier waarop bedrijven zaken doen en verandert het aanzien van onderwijs en professionele training in o.a. de tech- en design sector, de gezondheidszorg en ver daarbuiten. De afgelopen jaren hebben we VR als medium tot zijn recht zien komen - en het blijft kritische en commerciële aandacht krijgen.
+
+----
+
+Designsoftwaretext: 
+
+----
+
+Designsoftwarelinks: 
+
+----
+
+Inspirationlinks:
+
+- 
+  anchor: VR BASE
+  link: https://vrbase.be/
+
+----
+
+Creations:
+
+- 
+  creationimage:
+    - hp2.jpg
+  creationstext: Dit is een ongelooflijk goede test.
+  creationscreator: Yuuuuuu
+
+----
+
+Thumbnail:
+
+- ar-vr-studio.png
+
+----
+
+Materialen: HP G1 VR Backpack, HP Reverb Pro VR Headset, Fully adjustible haptic striker, Windows mixed reality controller
+
+----
+
+Gallery:
+
+- hp.jpg
+- hp2.jpg
+
+----
+
+Designsoftware: Als u een passage uit Lorum Ipsum gaat gebruiken dient u zich ervan te verzekeren dat er niets beschamends midden in de tekst verborgen zit.
+
+----
+
+Inspiratie: Het gebruikt een woordenlijst van 200 latijnse woorden gecombineerd met een handvol zinsstructuur modellen om een Lorum Ipsum te genereren die redelijk overkomt.

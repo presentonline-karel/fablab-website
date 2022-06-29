@@ -1,0 +1,50 @@
+// MOBILE
+.content-blog {
+    overflow: hidden;
+
+    &__tag-filter {
+        overflow: auto;
+        white-space: nowrap;
+        overflow-x: scroll;
+        scrollbar-width: none; /* for Firefox */
+        -ms-overflow-style: none;
+
+        &__button-tag {
+            display: inline-block;
+            overflow-x: hidden;
+            margin-bottom: 2px;
+        }
+    }
+
+    &__tag-filter::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__tag-filter::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.active-tag {
+    background-color: $primary;
+}
+
+#remove-tag {
+    background-color: $neutrals-10;
+    color: $primary;
+    margin-top: 5px;
+}
+
+.tag-container {
+    width: 100%;
+    overflow-x: hidden;
+
+    .tags {
+        overflow-x: auto;
+        margin-right: 10px;
+    }
+
+    &__button {
+        display: block;
+    }
+}

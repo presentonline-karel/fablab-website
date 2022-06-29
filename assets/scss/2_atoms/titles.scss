@@ -1,0 +1,541 @@
+// MOBILE
+// GENERAL TITLES
+.h1 {
+    font-family: $primary-font;
+    margin: $h1-margin-mobile;
+    margin-top: 0;
+    font-size: $h1-font-size-mobile;
+    font-weight: $h1-font-weight;
+}
+
+.h2 {
+    font-family: $primary-font;
+    font-size: $h2-font-size-mobile;
+    font-weight: $h2-font-weight;
+    margin: $h2-margin-mobile;
+    margin-top: 50px;
+}
+
+.h2-home {
+    background-color: $neutrals-10;
+    padding-left: $margin-side-mobile;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: $neutrals-0;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.h2-categories {
+    font-family: $primary-font;
+    //font-size: $h2-font-size-mobile;
+    font-weight: $h1-font-weight;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.h3 {
+    font-size: $h3-font-size-mobile;
+    font-weight: $h3-font-weight;
+    margin: $h3-margin-mobile;
+}
+
+.h4 {
+    font-family: $primary-font;
+    font-size: $h4-font-size-mobile;
+    font-weight: $h4-font-weight;
+    margin: $h4-margin-mobile;
+}
+
+.h4-footer {
+    color: $neutrals-6;
+}
+
+.h5 {
+    font-family: $primary-font;
+    font-size: $h5-font-size-mobile;
+    font-weight: $h5-font-weight;
+    margin: $h5-margin-mobile;
+    color: $neutrals-8;
+}
+
+.h5-footer {
+    color: $primary;
+}
+
+// HOME
+.message {
+    &__title {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+}
+
+.introduction {
+    &__title {
+        margin-right: 37%;
+        margin-bottom: 30px;
+        margin-top: 50px !important;
+    }
+
+    &__openhours {
+        &__title:first-of-type {
+            margin-top: 0;
+        }
+    }
+}
+
+.info {
+    .banner-fablab {
+        h2 {
+            margin-top: 30px;
+            margin-right: 32%;
+        }
+    }
+
+    .banner-biolab {
+        h2 {
+            margin-top: 30px;
+            margin-right: 64%;
+        }
+    }
+}
+
+// CATEGORY-DETAIL
+.category-wrapper {
+    &__machines-wrapper {
+        &__list {
+            &__item {
+                &__link {
+                    &__title {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MACHINE-DETAIl
+.machine-wrapper {
+    &__tutorial-wrapper {
+        .h3 {
+            margin: 10px 0px 0px 0px;
+        }
+    }
+}
+
+.machine-banner {
+    &__title {
+        color: $neutrals-0;
+    }
+}
+
+// FOOTER
+.footer {
+    &__content {
+        &__block {
+            .first-title {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+// ERROR
+.container-error {
+    &__text-container {
+        &__title {
+            font-size: 34px;
+            margin-bottom: 45px;
+        }
+    }
+}
+
+
+
+// WHAT IS FABLAB
+.introduction {
+    &__title {
+        margin-top: 30px;
+    }
+}
+.wif-title {
+    margin-right: $margin-side-mobile !important;
+}
+
+.team {
+    &__titlecontainer {
+        &__title {
+            margin: 0;
+            padding: 14px 25px;
+        }
+    }
+
+    &__container {
+        &__title {
+            margin-top: 5px;
+        }
+    }
+}
+
+.h1-what-is-fablab {
+    font-family: $primary-font;
+    font-size: $h2-font-size-mobile;
+    font-weight: $h2-font-weight;
+    margin: $h2-margin-mobile;
+    margin-bottom: 0px;
+    margin-top: 30;
+
+    span:first-of-type {
+        color: $primary;
+    }
+
+    span:last-of-type {
+        color: $neutrals-7;
+    }
+}
+
+//BLOG
+.blog-wrapper {
+    &__blog-overview {
+        &__text-wrapper {
+            &__title {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
+
+// MOBILE - 360PX
+@media only screen and (min-width: 360px) {
+    .introduction {
+        &__title {
+            margin-right: 47%;
+        }
+    }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 42%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 69%;
+            }
+        }
+    }
+}
+
+
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 640px) {
+
+    // WHAT IS FABLAB
+    .team {
+        &__titlecontainer {
+            left: 21% !important;
+        }
+
+        &__container {
+            &__title {
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+
+
+// MOBILE TALLER
+@media only screen and (min-height: 730px) {
+
+    // WHAT IS FABLAB
+    .team {
+        &__titlecontainer {
+            left: 23% !important;
+        }
+
+        &__container {
+            &__title {
+                margin-top: 16px;
+            }
+        }
+    }
+}
+
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .h2-home {
+        padding-left: $margin-side-tablet-portrait;
+    }
+
+    // HOME
+    .introduction {
+        &__title {
+            margin-right: 70%;
+
+            &__openhours {
+                &__title:first-of-type {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 68%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 80%;
+            }
+        }
+    }
+
+    // WHAT IS FABLAB
+    .team {
+        &__titlecontainer {
+            left: 35% !important;
+        }
+
+        &__container {
+            &__title {
+                margin-top: 60px;
+            }
+        }
+    }
+
+    .h1-what-is-fablab {
+        font-size: $h1-font-size-mobile;
+        margin-top: 50px;
+    }
+}
+
+
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .h2-home {
+        margin-top: 50px;
+        padding-left: $margin-side-tablet-landscape;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    // HOME
+    .introduction {
+        margin-top: 50px;
+
+        &__title {
+            margin-right: 77%;
+        }
+    }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 75%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 85%;
+            }
+        }
+    }
+
+    // WHAT IS FABLAB
+    .introduction {
+        &__title {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    // GENERAL BUTTONS
+    .h2-home {
+        padding-left: $margin-side-desktop;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    // HOME
+    .home-container {
+        &__partners {
+            &__title {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .message {
+        &__title {
+            width: 50%;
+        }
+    }
+
+    .introduction {
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 75%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 83%;
+            }
+        }
+
+        &__imagecontainer {
+            width: 75% !important;
+        }
+    }
+
+
+
+    // CONTACT
+    .contact-container {
+        &__tabscontainer {
+            &__title {
+                margin-top: 0;
+            }
+        }
+    }
+
+    // FOOTER
+    .footer {
+        &__content {
+            &__block {
+                .first-title {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+
+    //MACHINE
+    .machine-banner{
+        &__title{
+            .h1{
+                margin: 0px;
+            }
+        }
+    }
+}
+
+
+
+// DESKTOP - 1536PX
+@media only screen and (min-width: $desktop-1536) {
+    // GENERAL BUTTONS
+    .h2-home {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    // HOME
+    .introduction {
+        &__title {
+            margin-right: 80%;
+        }
+    }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 79%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 86%;
+            }
+        }
+    }
+}
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    // GENERAL BUTTONS
+    .h2-home {
+        padding-left: $margin-side-hd;
+        background-color: initial;
+        color: $neutrals-10;
+        font-size: $h2-home-font-size-hd;
+        margin-right: 50% !important;
+    }
+}
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    // GENERAL BUTTONS
+    .h2-home {
+        margin-left: 600px;
+        padding-left: 62px;
+        border-radius: 10px;
+        margin-right: $margin-side-qhd;
+    }
+
+
+    // HOME
+    .introduction {
+        &__title {
+            margin-right: $margin-side-qhd;
+        }
+    }
+}
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    // GENERAL BUTTONS
+    .h2-home {
+        margin-left: 1240px;
+        padding-left: 62px;
+        margin-right: $margin-side-4k;
+    }
+
+    // HOME
+    .introduction {
+        &__title {
+            margin-right: $margin-side-4k;
+        }
+    }
+
+    //BLOG
+    .container-blog {
+        h1 {
+            padding-top: 70px;
+        }
+    }
+}

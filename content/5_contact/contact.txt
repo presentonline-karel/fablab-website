@@ -1,0 +1,308 @@
+Title: Contact
+
+----
+
+Pagetitle: Contacteer ons!
+
+----
+
+Address: Salesianenlaan 90, 2660 Hoboken
+
+----
+
+Email: fablab@kdg.be
+
+----
+
+Reservetitle: Reserveren
+
+----
+
+Reservetext: Wilt u een toestel reserveren? Reserveren kan de via reservatiemodule of e-mail.
+
+----
+
+Generaltitle: Algemene info & vragen
+
+----
+
+Generaltext: Partnerschappen, samenwerken, professioneel advies. Op zoek naar onderzoeksactiviteiten, workshops of een locatie voor evenementen?
+
+----
+
+Employees:
+
+- 
+  image:
+    - mark.jpg
+  name: Mark Vekemans
+  function: >
+    Product Developer, Design consultant,
+    Coördinator Fablab
+  tel: 0487 25 36 36
+  email: markvekemans@telenet.be
+  biography: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat, in tegenstelling tot "Hier uw
+    tekst, hier uw tekst" wat het tot min of
+    meer leesbaar nederlands maakt.
+- 
+  image:
+    - esther.jpg
+  name: Esther van de Poll
+  function: 'Digital Designer & Maker, Technisch medewerker Fablab'
+  tel: 0458 52 62 32
+  email: esthervandepoll@test.com
+  biography: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat, in tegenstelling tot "Hier uw
+    tekst, hier uw tekst" wat het tot min of
+    meer leesbaar nederlands maakt.
+
+----
+
+Accessibility:
+
+- 
+  vehicle: Fiets
+  description: 'Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320). Meer info: www.velo-antwerpen.be'
+  vehicles: ""
+- 
+  vehicle: Trein
+  description: >
+    Station Antwerpen-Zuid ligt op 4km van
+    de campus. Check de dienstregeling van
+    de NMBS! Je stapt op station
+    Antwerpen-Zuid best over op de fiets of
+    openbaar vervoer.
+  vehicles: auto
+- 
+  vehicle: Bus
+  description: |
+    In de onmiddellijke omgeving van de campus vind je meerdere tramlijnen en buslijnen.
+    De **dichtstbijzijnde halte** bij Campus Hoboken is Halte Hoboken Heidestraat (102795, 102800), op ca. 500 meter, ongeveer 5 minuten. wandelen.
+    
+    De bussen en tram die u van daar kan nemen zijn volgende:
+    Tram 10: Wijnegem – P+R Schoonselhof
+    Bus 33:  Hoboken – Wilrijk – Merksem – Ekeren
+    Bus 290: Boom – Niel – Antwerpen
+    Bus 295: Boom – Predikherenvelden – Niel – Antwerpen www.delijn.be
+- 
+  vehicle: Auto
+  description: >
+    Er is voldoende parkeerruimte op en in
+    de buurt van de campus. Deze campus
+    bevindt zich momenteel niet binnen de
+    lage-emissiezone van de stad Antwerpen.
+
+----
+
+Socials:
+
+- 
+  social: facebook
+  url: https://www.facebook.com
+  icon: [ ]
+  socials: https://www.facebook.com
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  kdgwebsite: https://www.kdg.be
+- 
+  social: instagram
+  url: https://www.instagram.com
+  icon: [ ]
+- 
+  social: kdg
+  url: https://www.kdg.be
+  icon: [ ]
+- 
+  social: linkedin
+  url: https://www.linkedin.com/feed/
+- 
+  social: reddit
+  url: https://www.facebook.com
+
+----
+
+Reserve-title: 
+
+----
+
+Reserve-text: 
+
+----
+
+General-title: 
+
+----
+
+General-text: 
+
+----
+
+Emails:
+
+- 
+  email: karel.decoene@hotmail.com
+
+----
+
+Facebooklink: facebook.com
+
+----
+
+Instagramlink: instagram.com
+
+----
+
+Kdgwebsite: kdg.be
+
+----
+
+Reserve: Wilt u een toestel reserveren? Reserveren kan via de reservatiemodule of e-mail.
+
+----
+
+Generalinfo: Partnerschappen, samenwerken, professioneel advies. Op zoek naar onderzoeksactiviteiten, workshops of een locatie voor evenementen?
+
+----
+
+Employee1: Mark Vekemans
+
+----
+
+Employee1-function: Product Developer / Design consultant / Coördinator Fablab
+
+----
+
+Employee1-telephone: 0455 55 66 88
+
+----
+
+Employee1-email: email
+
+----
+
+Employee2: Esther van de Poll
+
+----
+
+Employee2-function: Digital Designer & Maker / technisch medewerker Fablab
+
+----
+
+Employee2-telephone: 5566 22 33 55
+
+----
+
+Employee2-email: email
+
+----
+
+Accessibilitybike:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+
+Meer info: www.velo-antwerpen.be
+
+----
+
+Accessibilitytram:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+
+Meer info: www.velo-antwerpen.be
+
+----
+
+Accessibilitybus:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+
+Meer info: www.velo-antwerpen.be
+
+----
+
+Accessibilitycar:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+
+Meer info: www.velo-antwerpen.be
+
+----
+
+Employee1telephone: 0032(0)495 123 100
+
+----
+
+Employee1email: mark.vekemans@kdg.be
+
+----
+
+Employee2telephone: 0032(0)495 123 100
+
+----
+
+Employee2email: esther.vandepoll@kdg.be
+
+----
+
+Facebook-link: facebook.com
+
+----
+
+Instagram-link: instagram.com
+
+----
+
+Kdg: kdg.be
+
+----
+
+General-info-and-questions:
+
+text
+
+Employee1: text
+
+----
+
+Accessibility-bike: textarea
+
+----
+
+Accessibility-tram: textarea
+
+----
+
+Accessibility-bus: textarea
+
+----
+
+Accessibility-car: textarea
+
+----
+
+Holidays:
+
+- 
+  title: holiday1
+  images: [ ]
+  description: hallo
+  price: 1200

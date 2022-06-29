@@ -1,0 +1,146 @@
+.contactform-container {
+    margin-top: 30px;
+    background-color: $neutrals-0;
+    border-radius: $border-radius-big;
+    border: 2px solid $primary;
+}
+
+.contactform {
+    padding-left: $margin-side-mobile;
+    padding-right: $margin-side-mobile;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &__field {
+        &__label {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        &__input {
+            display: block;
+            font-family: $primary-font;
+            font-size: $p-small-font-size-mobile;
+            font-weight: 500;
+            margin: $input-margin-mobile;
+            padding: $input-padding-mobile;
+            border-radius: $border-radius-small;
+            border: none;
+            width: 100%;
+            background-color: $neutrals-1;
+        }
+
+        .textarea {
+            resize: none;
+            height: 300px;
+        }
+    }
+
+    &__submit {
+        background-color: $primary;
+        color: $neutrals-10;
+        font-family: $primary-font;
+        font-size: $button-big-font-size-mobile;
+        font-weight: 700;
+        border-radius: $border-radius-small;
+        margin-left: 0;
+        cursor: pointer;
+    }
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+.form-control textarea {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.form-control.succes input {
+    border-color: #2ecc71;
+}
+.form-control.succes textarea {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color: #e74c3c;
+}
+.form-control.error textarea {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 36px;
+    right: 10px;
+}
+
+.form-control.succes i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form button {
+    background-color: #1D1D1D;
+    color: #f4f4f4;
+    border: 2px solid #1D1D1D;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .contactform {
+        padding-left: $margin-side-tablet-portrait;
+        padding-right: $margin-side-tablet-portrait;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .contactform-container {
+        margin-top: 0px;
+    }
+}

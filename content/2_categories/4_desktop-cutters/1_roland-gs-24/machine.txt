@@ -1,0 +1,53 @@
+Title: ROLAND GS-24
+
+----
+
+Type: Snijplotter
+
+----
+
+Manufactur: Roland
+
+----
+
+Buildvolume: Snijbreedte: 584mm, Snijlengte : 25000 mm
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: https://www.rolanddg.eu/nl/producten/software/roland-cutstudio-software
+
+----
+
+Manual: https://www.rolanddg.eu/nl/producten/snijplotters/camm-1-gs-24-desktop-snijplotter
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

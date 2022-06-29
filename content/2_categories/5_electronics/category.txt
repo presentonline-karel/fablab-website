@@ -1,0 +1,61 @@
+Title: Electronics
+
+----
+
+Info: Microcontrollers worden veel gebruikt in educatieve sessies en workshops met lagere of middelbare schoolkinderen, in het kader van STEM/STEAM-activiteiten. Na een korte theoretische uiteenzetting over microcontrollers en hun functionaliteit, kunnen gebruikers leren om zelfstandig een controller te programmeren. De leerlingen zullen stap per stap en spelenderwijs de knepen van het programmeren leren kennen, met als kers op de taart het programmeren van een eigen robot.
+
+----
+
+Technologie: Microcontrollers zijn robothersenen (geprogrammeerde besturingssystemen). Met microcontrollers kan je sensoren en specialized control electronics aan elkaar koppelen (samen met al het andere dat nodig is voor het project) en de algemene logica van de robot bevatten. Sensoren zijn wat robots nodig hebben om de wereld om hen heen te kennen. Verschillende sensoren meten ultrasoon, temperatuur en vochtigheid, kracht en nog veel meer om je robotbewustzijn te vergroten. Elektronische componenten zijn onderdelen voor algemene doeleinden voor elk elektronicaproject en omvatten weerstanden, condensatoren, schakelaars, transistoren, deelsets en andere afzonderlijke siliconenproducten.<br><br><strong>Arduino </strong>maakt het mogelijk om objecten te laten reageren op hun omgeving aan de hand van sensoren, schakelaars, … Met Arduino kan je natuurlijk nog veel meer, denk aan besturingssystemen voor robots, theremins, afstandsbedieningen, …<br><br><strong>MakeyMakey</strong> is een printplaat die je aansluit op een computer, hij vervangt bepaalde toetsen op je toetsenbord door objecten die geleiden. Bv: aluminiumfolie, plasticine, … Je kan de MaKeyMaKey heel goed combineren met o.a. Scratch.<br><br><strong>Strawbees </strong>is een constructiesysteem ontwikkeld in Zweden. De kit bestaat uit kleine verbindingen “Strawbees” die het mogelijk maken om rietjes en/of karton met elkaar te verbinden. Op deze manier kunnen er kleine of grote constructies gebouwd worden. Ga aan de slag met de vele bouwvoorbeelden of laat je eigen creativiteit de vrije loop. Het Strawbees-systeem traint het samenwerken en probleemoplossende vaardigheden, daarnaast kan het ook gehanteerd worden om basisprincipes van mechanica en fysica aan te leren.<br><br><strong>Micro Bits</strong> is een klein (4x5cm) microcomputertje met knopjes voor de bediening en een 5x5 led matrix als beeldscherm, dat met 4 verschillende programmeertalen kan worden geprogrammeerd. De meest laagdrempelige taal is de Blocks Editor, waarin het programma (script) op een grafische wijze wordt ontworpen, door blokjes te slepen en aan elkaar te hangen. Hierbij kunnen geen syntax fouten gemaakt worden, maar toch wordt de manier van denken van een programmeur aangeleerd.
+
+----
+
+Designsoftwaretext: 
+
+----
+
+Designsoftwarelinks: 
+
+----
+
+Inspirationlinks: 
+
+----
+
+Creations:
+
+- 
+  creationimage:
+    - arduino.jpg
+  creationstext: test1
+  creationscreator: tester persoon
+- 
+  creationimage:
+    - arduino2.jpg
+  creationstext: nog een tester.
+  creationscreator: tester persoon2
+
+----
+
+Thumbnail:
+
+- electronics-1.png
+
+----
+
+Materialen: Arduino
+
+----
+
+Gallery:
+
+- arduino2.jpg
+- arduino.jpg
+
+----
+
+Designsoftware: modellen om een Lorum Ipsum te genereren die redelijk overkomt. De gegenereerde Lorum Ipsum is daardoor altijd vrij van herhaling, ingevoegde humor
+
+----
+
+Inspiratie: Het standaard stuk van Lorum Ipsum wat sinds de 16e eeuw wordt gebruikt is hieronder, voor wie er interesse in heeft, weergegeven. Secties 1.10.32 en 1.10.33 van "de Finibus

@@ -1,0 +1,42 @@
+Title: Smart Textiles
+
+----
+
+Info: Smart textiles zijn intelligente textielstructuren of stoffen die omgevingsstimuli kunnen waarnemen en erop reageren, die onder andere mechanisch, thermisch, chemisch, biologisch en magnetisch kunnen zijn.
+
+----
+
+Technologie: In de afgelopen decennia is textiel een nieuw tijdperk ingegaan, dat van slim textiel. Veel definities werden de revue gepasseerd, maar die van een draagbaar textielsysteem kreeg de laatste jaren steeds meer belangstelling en belang. Een draagbaar textielsysteem bestaat in principe uit de volgende onderdelen:<br>- Sensoren om lichaams- of omgevingsparameters te detecteren<br>- Een gegevensverwerkingseenheid om de verkregen gegevens te verzamelen en te verwerken<br>- Een actuator die een signaal kan geven aan de drager<br>- Een communicatieapparaat dat een draadloze communicatieverbinding tot stand brengt met een nabijgelegen basisstation<br>- Een energievoorziening die het hele systeem laat werken<br>- Interconnecties die de verschillende componenten verbinden
+
+----
+
+Designsoftwaretext: 
+
+----
+
+Designsoftwarelinks: 
+
+----
+
+Inspirationlinks: 
+
+----
+
+Creations: 
+
+----
+
+Thumbnail:
+
+- smart-textiles-1.png
+
+----
+
+Materialen: 
+
+----
+
+Gallery:
+
+- smart-fabrics-and-textiles.jpg
+- smart-textiles-design-lab.jpg

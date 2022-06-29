@@ -1,0 +1,73 @@
+// MOBILE
+.blog-wrapper {
+    &__blog-overview {
+        display: block;
+        margin-bottom: 30px;
+        background-color: $neutrals-2;
+        border-radius: $border-radius-middle;
+
+        &__text-wrapper {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    &__blog-overview:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &__blog-overview:first-of-type {
+        margin-top: 30px;
+    }
+}
+
+.blog-wrapper-desktop {
+    display: none;
+}
+
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .blog-wrapper {
+        &__blog-overview {
+            margin-bottom: 0;
+        }
+
+        &__blog-overview:first-of-type {
+            margin-top: 0px;
+        }
+    }
+}
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .blog-container {  
+        .blog-wrapper {
+            &__blog-overview:first-of-type {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+
+// DESKTOP - 1440PX
+@media screen and (min-width: $desktop-1440) {
+    .blog-wrapper-desktop {
+        margin-top: 30px;
+
+        &__blog-overview {
+            max-width: 307px;
+            
+            &__text-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+}

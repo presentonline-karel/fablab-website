@@ -1,0 +1,232 @@
+// MOBILE
+.header {
+    &__menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+        position: fixed;
+        width: 100vw;
+        transition: 0.5s;
+        z-index: 1000;
+
+        .nav-active {
+            transform: translateX(-35%);
+            padding-top: 15vh;
+            padding-bottom: 15vh;
+        }
+
+        &__navlinks {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: absolute;
+            right: 0px;
+            height: 100vh;
+            top: 0;
+            align-items: center;
+            width: 75%;
+            transform: translateX(-150%);
+            transition: transform 0.5s ease-in;
+            z-index: 1;
+            background-color: $neutrals-9;
+
+            &__item {
+                list-style-type: none;
+                opacity: 0;
+
+                &__link {
+                    text-decoration: none;
+                    font-family: $primary-font;
+                    font-weight: bold;
+                    color: $neutrals-0;
+                }
+
+                .active {
+                    border-bottom: 3px solid $primary;
+                    //color: $primary;
+                }
+            }
+        }
+
+        &__burger {
+            display: block;
+            cursor: pointer;
+            z-index: 2;
+
+            &__line {
+                width: 25px; //25
+                height: 3px;
+                background-color: $neutrals-10;
+                margin: 5px;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+
+    &__languagebutton {
+        display: none;
+    }
+}
+
+.nav-scrolled {
+    background-color: $neutrals-0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-links-desktop {
+    display: none;
+}
+
+// fade animation menu item
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+// animate different lines of burger with toggle class
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    background-color: $neutrals-0;
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    background-color: $neutrals-0;
+}
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 640px) {
+    .header {
+        &__menu {
+            height: 12vh;
+        }
+    }
+}
+
+// TABLET PORTRAIT
+@media screen and (min-width: 768px) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-tablet-portrait;
+            padding-right: $margin-side-tablet-portrait;
+            &__navlinks {
+                transform: translateX(-200%);
+            }
+
+            .nav-active {
+                transform: translateX(-100%);
+            }
+        }
+    }
+    
+    .nav-links {
+        width: 50%;
+    }
+}
+
+// TABLET LANDSCAPE
+@media screen and (min-width: 1024px) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-tablet-landscape;
+            padding-right: $margin-side-tablet-landscape;
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    .header {
+        &__menu {
+            flex-direction: row;
+            padding-left: $margin-side-desktop;
+            padding-right: $margin-side-desktop;
+            height: 140px;
+
+            &__navlinks {
+                flex-direction: row;
+                background-color: transparent;
+                justify-content: space-around;
+                width: 55%;
+                transform: translateX(0%);
+                height: 140px;
+                position: initial;
+
+                &__item {
+                    opacity: 1;
+
+                    &__link {
+                        color: $neutrals-10;
+                    }
+
+                    &__link:hover {
+                        border-bottom: 3px solid $primary;
+                    }
+                }
+            }
+
+            &__burger {
+                display: none;
+                z-index: 1;
+            }
+        }
+
+        &__logo {
+            &__img {
+                width: 100px;
+            }
+        }
+    }
+
+    .nav-links-desktop {
+        display: flex;
+    }
+
+    .nav-links-mobile {
+        display: none;
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-hd;
+            padding-right: $margin-side-hd;
+        }
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-qhd;
+            padding-right: $margin-side-qhd;
+        }
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-4k;
+            padding-right: $margin-side-4k;
+        }
+    }
+}

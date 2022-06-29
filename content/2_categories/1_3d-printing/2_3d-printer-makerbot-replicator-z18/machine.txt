@@ -1,0 +1,77 @@
+Title: Makerbot Replicator Z18
+
+----
+
+Amount: 1
+
+----
+
+Type: 3D Printer
+
+----
+
+Manufactur: Makerbot
+
+----
+
+Buildvolume: X 30cm x Y 30.5cm x Z 45.7cm (11.8 x 12.0 x 18.0 inch)
+
+----
+
+Nozzle: 0,4 mm
+
+----
+
+Filament: 1,75 mm
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 100 microns
+
+----
+
+Bed: not heated (encased chamber)
+
+----
+
+Extraspecs: Dus stel Mark heeft nog specs over machines die nergens past:<br>- dan kan die hier<br>- of hier<br>- en hier kan nog meer info
+
+----
+
+Software: https://www.makerbot.com/3d-printers/apps/makerbot-print/
+
+----
+
+Manual: https://3qcbdntxdyb43ubh6h0b0qgz-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/z18_user_manual-1.pdf
+
+----
+
+Tutorials: 
+
+----
+
+Creation: https://www.google.com
+
+----
+
+Isavailable: yes
+
+----
+
+Filetypes: 
+
+----
+
+Category: 3D printing
+
+----
+
+Supprtedfiletypes: STL, OBJ
+
+----
+
+Tutorial: link

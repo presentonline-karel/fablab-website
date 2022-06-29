@@ -1,0 +1,71 @@
+title: Prijslijst
+
+sections:
+  info:
+    type: fields
+    fields:
+      StandardMaterials:
+        label: Standaard Materialen Tekst
+        type: writer
+      OwnMaterials:
+        label: Eigen Materialen Tekst
+        type: writer
+
+      machineStartUpCost:
+        label: Machine opstart kosten
+        type: structure
+        fields:
+          machine:
+            label: Machine
+            type: text
+          costIntern:
+            label: Opstartkost Intern KdG
+            type: number
+            before: €
+          costExtern:
+            label: Opstartkost Extern KdG
+            type: number
+            before: €
+          costCompany:
+            label: Opstartkost Bedrijf
+            type: number
+            before: €
+
+      Materials:
+        label: Materiaaltype
+        type: structure
+        fields: 
+          name:
+            label: Naam
+            type: text
+          materialitem:
+            label: Item van een Materiaaltype
+            type: structure
+            fields:
+              detail:
+                label: Detail
+                type: text
+              color:
+                label: Kleur
+                type: text
+              size:
+                label: Maat
+                type: text
+              pricekdg:
+                label: Prijs KdG studenten en personeel
+                type: text
+                before: "€ "
+              priceextern:
+                label: Prijs Privé/Extern
+                type: text
+                before: "€ "
+              pricecompany:
+                label: Prijs Bedrijven
+                type: text
+                before: "€ "
+              instock:
+                label: In Stock
+                type: toggle
+                text: 
+                  - "no"
+                  - "yes"

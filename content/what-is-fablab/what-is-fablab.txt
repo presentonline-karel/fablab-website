@@ -1,0 +1,17 @@
+Title: Wat is een FabLab
+
+----
+
+Whatisfablabtitle: Wat is FabLab
+
+----
+
+Whatisfablabtext: Het KdG FabLab is een maakplaats voor iedereen. Je vindt er onder andere 3D-printers, een Makerbot, lasercutters, een CNC-frees, AR/VR-space, een woodshop, een textielatelier, een elektronica-corner en educatieve tools zoals Makey Makeys, Microbits en Strawbees. Je kan er je ideeën omzetten naar tastbare producten, studenten en andere makers ontmoeten, je laten inspireren, kennis en ideeën uitwisselen en zoveel meer.
+
+----
+
+Wordfablabtitle: Van waar komt het woord fablab
+
+----
+
+Wordfablabtext: Fab lab is de afkorting van het Engelse fabrication laboratory. Een fablab is een coöperatieve werkplaats waar uitvinders en ontwikkelaars gebruik kunnen maken van een collectieve infrastructuur. In het Fablab kunnen machines met behulp van computer en software aangestuurd worden om dingen te maken als prototypes, maquettes en nog veel meer. Het idee is bedacht professor Neil Gershenfeld een beroemde wetenschapper en uitvinder aan het prestigieuze MIT (Massachusetts Institute of Technology). Zijn idee was simpel : een omgeving creëren waarin skills, technologie en materialen ingezet kunnen worden om op een snelle, efficiënte manier dingen te kunnen fabriceren, eender waar in de wereld, en deze Fablabs openstellen voor entrepreneurs, studenten, artiesten, kleine ondernemingen; en in feite voor iedereen die iets wil ontwerpen of fabriceren.

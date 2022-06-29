@@ -1,0 +1,38 @@
+.accordion-wrapper {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid $neutrals-10;
+    cursor: pointer;
+    max-width: 864px;
+
+    &__question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__title {
+            margin-top: 0;
+        }
+    }
+
+    &__answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1s ease;
+
+        &__paragraph {
+            padding-top: 1rem;
+        }
+    }
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}

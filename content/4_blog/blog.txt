@@ -1,0 +1,3 @@
+Title: Blog
+----
+Subtitle: Blijf op de hoogte van activiteiten en releases!

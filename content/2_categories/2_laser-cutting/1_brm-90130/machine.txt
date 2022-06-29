@@ -1,0 +1,53 @@
+Title: BRM 90130 - 100/150W
+
+----
+
+Type: Lasermachine
+
+----
+
+Manufactur: BRM
+
+----
+
+Buildvolume: 
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 88 x 128cm
+
+----
+
+Software: https://vrotech.nl/machines/slim1300-100w/
+
+----
+
+Manual: 
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

@@ -1,0 +1,30 @@
+.category-wrapper {
+    &__materialen {
+        &__list {
+            padding-bottom: 20px;
+            margin-left: $ul-margin-mobile;
+        }
+
+        &__price-list {
+            text-decoration: none;
+            font-size: $p-big-font-size-mobile;
+        }
+
+        &__price-list:hover {
+            border-bottom: 4px solid $primary;
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .category-wrapper {
+        &__materialen {
+            margin-top: 100px;
+            
+            h2 {
+                margin-top: 0
+            }
+        }
+    }
+}

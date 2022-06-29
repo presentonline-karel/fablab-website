@@ -1,0 +1,50 @@
+Title: FAQ
+
+----
+
+Faqs:
+
+- 
+  question: Vraag1
+  answer: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat.
+- 
+  question: Vraag 2
+  answer: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat,
+- 
+  question: Vraag3
+  answer: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat,
+- 
+  question: Vraag4
+  answer: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat,

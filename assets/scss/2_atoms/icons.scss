@@ -1,0 +1,214 @@
+// MOBILE
+
+// HOME
+.home-container {
+    background-color: $neutrals-1;
+    padding-bottom: 50px;
+
+    &__banner {
+        &__background {
+            &__scroll {
+                i {
+                    font-size: 46px;
+                    font-weight: bold;
+                    color: $neutrals-0;
+                    position: absolute;
+                    bottom: 22px; //22px
+                    right: 30px;
+                }
+            }
+        }
+    }
+
+    &__partnersflexbox {
+        &__box {
+            &__container {
+                &__link {
+                    i {
+                        font-size: 24px;
+                        font-weight: 300;
+                        color: $neutrals-0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// CONTACT
+.contact-container {
+    &__contact {
+        &__flexbox {
+            &__data {
+                &__link {
+                    .location-icon {
+                        padding-left: 5px;
+                    }
+
+                    i {
+                        font-size: 25px;
+                        width: 40px;
+                        color: $neutrals-8;
+                    }
+                }
+
+                &__socials {
+                    &__item {
+                        i {
+                            color: $neutrals-8;
+                            font-size: 25px;
+                            width: 30px;
+                            color: $neutrals-8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__general {
+        &__flexbox {
+            &__left {
+                &__contact {
+                    i {
+                        font-size: 25px;
+                        width: 30px;
+                        color: $neutrals-8;
+                    }
+                }
+            }
+        }
+    }
+
+    &__tabscontainer {
+        &__tabs {
+            &__tabheader {
+                &__item {
+                    i {
+                        display: block;
+                        margin-bottom: 5px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ARTICLES
+.content-article {
+    &__icon {
+        padding-right: 15px;
+    }
+}
+
+// FOOTER
+.footer {
+    &__content {
+        &__block {
+            &__link {
+                .location-icon {
+                    padding-left: 5px;
+                }
+
+                i {
+                    color: $neutrals-0;
+                    font-size: 25px;
+                    width: 40px;
+                }
+            }
+
+            &__socialsflexbox {
+                &__social {
+                    i {
+                        font-size: 25px;
+                        width: 30px;
+                        margin-top: 30px;
+                        color: $neutrals-8;
+                    }
+                }
+            }
+
+            .socials-white {
+                .footer__content__block__socialsflexbox__social i {
+                    color: $neutrals-0;
+                }
+            }
+        }
+    }
+}
+
+//ERROR
+.error-container {
+    &__text-container {
+        &__link {
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+//FAQ
+.accordion-item {
+    &__question {
+        &__icon {
+            transition: transform 0.5s ease-in;
+        }
+
+        .icon-min {
+            opacity: 0;
+        }
+    }
+}
+
+.faq.active i {
+    transform: rotate(180deg);
+}
+
+.table__table-row__table-data i {
+    transform: rotate(0deg) !important;
+}
+
+.faq.active .icon {
+    display: none;
+}
+
+.faq.active .icon-min {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    // HOME
+    .home-container {
+        &__banner {
+            &__background {
+                &__scroll {
+                    i {
+                        bottom: 52px;
+                        right: 50%;
+                    }
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            &__box {
+                &__container {
+                    &__link:hover {
+                        transition: 0.5s;
+
+                        i {
+                            color: $neutrals-9;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

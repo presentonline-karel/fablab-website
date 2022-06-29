@@ -1,0 +1,53 @@
+Title: ShopBot PRSalpha 96-48 CNC Router
+
+----
+
+Type: CNC machine
+
+----
+
+Manufactur: ShopBot
+
+----
+
+Buildvolume: 2.49m x 1.27m x .2m
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: https://www.shopbottools.com/products/software
+
+----
+
+Manual: https://www.shopbottools.com/ShopBotDocs/files/SBG%2000142%20User%20Guide%2020150317.pdf
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

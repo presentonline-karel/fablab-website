@@ -1,0 +1,59 @@
+//No dropdown is being used right now
+
+// desktop
+/*.header {
+    &__menu {
+        &__navlinks {
+            &__dropdown {
+                position: relative;
+                display: inline-block;
+
+                &__button {
+                    background-color: transparent;
+                    color: $black;
+                    border: none;
+                    font-family: $verdana;
+                    font-weight: 700;
+                    font-size: 16px;
+                    border-bottom: 3px solid transparent;
+                    margin-top: 3px;
+                }
+
+                &__list {
+                    display: none;
+                    position: absolute;
+                    background-color: $background-grey;
+                    min-width: 320px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+
+                    &__item {
+                        color: black;
+                        text-decoration: none;
+                        display: block;
+                        width: 100%;
+
+                        &__link {
+                            width: 100%;
+                            display: block;
+                            height: 100%;
+                            padding: 12px 16px;
+                        }
+                    }
+
+                    &__item:hover {
+                        background-color: $new-grey;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border-bottom: 3px solid $yellow;
+} */

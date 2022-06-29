@@ -1,0 +1,76 @@
+Title: Laser Cutting & Graveren
+
+----
+
+Info: Lasersnijden is een bewerkingstechniek waarmee materialen door middel van een laser (Light Amplification by Stimulated Emission of Radiation) op maat en in de juiste vorm worden gesneden of gegraveerd.<br><br>Lasers zijn elektromagnetische stralingsbronnen, het licht van deze stralingsbronnen wordt in een bundel met een zeer hoge intensiteit uitgestuurd. De breedte van die bundel is slechts een fractie van een millimeter, waardoor de lichtstraal op een zeer klein vlak gefocust wordt. Deze intensiteit zorgt er voor dat er gesneden of gegraveerd kan worden.
+
+----
+
+Technologie: Er zijn verschillende stijlen van lasercutters, de lasers in KdG Fablab gebruiken de Co2 technologie.<br><br>Supported file types:<br>- vector: *.cdr, *.ai, *.svg<br>- Bitmap: *.cpt, *.ps, *.bmp, *.jpg, *.tiff, *.gif, *.png<br>- Samengesteld: *.pdf, *.eps<br>- CAD : *.dxf, *.dwg, *.3dm
+
+----
+
+Designsoftwaretext: Je kan in principe elk grafisch programma gebruiken om designs te maken voor de lasercutters. Zo kan je zowel op pixels gebaseerde afbeeldingen (bijvoorbeeld uit Photoshop) gebruiken als op vectoren gebaseerde afbeeldingen (bijvoorbeeld uit Adobe Illustrator, Inkscape, Autocad). Beide formaten zijn geschikt voor lasergraveren, maar voor laser cutting gebruik je steeds een vectoriële afbeeldingen.
+
+----
+
+Designsoftwarelinks: 
+
+----
+
+Inspirationlinks:
+
+- 
+  anchor: Vecteezy
+  link: 'https://all3dp.com/2/free-laser-cut-files-designs-templates/#vecteezy'
+- 
+  anchor: 3axis.co
+  link: 'https://all3dp.com/2/free-laser-cut-files-designs-templates/#epilog-laser-sample-club'
+- 
+  anchor: Laser Ready Templates
+  link: 'https://all3dp.com/2/free-laser-cut-files-designs-templates/#vecteezy'
+- 
+  anchor: Epilog Laser Sample Club
+  link: 'https://all3dp.com/2/free-laser-cut-files-designs-templates/#epilog-laser-sample-club'
+- 
+  anchor: Etsy
+  link: 'https://all3dp.com/2/free-laser-cut-files-designs-templates/#vecteezy'
+- 
+  anchor: Thingiverse
+  link: 'https://all3dp.com/2/free-laser-cut-files-designs-templates/#vecteezy'
+
+----
+
+Creations:
+
+- 
+  creationimage:
+    - decoupe-laser-cutting.jpg
+  creationstext: Dit is een test.
+  creationscreator: Test
+
+----
+
+Thumbnail:
+
+- laser-cutting.png
+
+----
+
+Materialen: Metaal, Plastics, Rubber, Leder, Kunstof, Hout
+
+----
+
+Gallery:
+
+- >
+  laser-cutting-technology-feature-image.jpg
+- decoupe-laser-cutting.jpg
+
+----
+
+Designsoftware: Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, door ingevoegde humor.
+
+----
+
+Inspiratie: In tegenstelling tot wat algemeen aangenomen wordt is Lorem Ipsum niet zomaar willekeurige tekst. het heeft zijn wortels in een stuk klassieke latijnse literatuur uit 45 v.Chr. en is dus meer dan 2000 jaar oud. Richard McClintock

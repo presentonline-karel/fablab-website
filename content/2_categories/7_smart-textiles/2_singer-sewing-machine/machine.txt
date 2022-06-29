@@ -1,0 +1,53 @@
+Title: Singer Sewing machine
+
+----
+
+Type: Sewing machine
+
+----
+
+Manufactur: Singer
+
+----
+
+Buildvolume: 
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: 
+
+----
+
+Manual: https://www.singer.com/Talent-3323-Sewing-Machine-Support
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

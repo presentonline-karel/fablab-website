@@ -1,0 +1,268 @@
+// MOBILE
+.contact-container {
+    &__contact {
+        &__flexbox {
+            &__data {
+                margin-left: $margin-side-mobile;
+                margin-right: $margin-side-mobile;
+
+                &__link:first-of-type {
+                    margin-bottom: 8px;
+                }
+
+                &__link {
+                    display: block;
+                    font-size: $p-big-font-size-mobile;
+                }
+
+                &__socials {
+                    margin-top: 30px;
+
+                    &__item {
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+
+    &__general {
+        margin-left: $margin-side-mobile;
+        margin-right: $margin-side-mobile;
+
+        &__flexbox {
+            margin-top: 30px;
+
+            &__left {
+                &__function {
+                    color: $neutrals-8;
+                    margin-bottom: 8px;
+                }
+
+                &__contact {
+                    display: block;
+                    font-size: $p-big-font-size-mobile;
+                }
+
+                &__contact:first-of-type {
+                    margin-bottom: 8px;
+                }
+            }
+
+            &__left:last-of-type {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+// for contactform
+.alert {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.error {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                &__data {
+                    margin-left: $margin-side-tablet-portrait;
+                    margin-right: $margin-side-tablet-portrait;
+                }
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-tablet-portrait;
+            margin-right: $margin-side-tablet-portrait;
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-left: $margin-side-tablet-landscape;
+                margin-right: $margin-side-tablet-landscape;
+
+                &__data {
+                    width: 40%;
+                    margin-left: 0;
+                }
+
+                .contactform-container {
+                    width: 50%;
+                }
+            }
+        }
+
+        &__general {
+            margin-top: 50px;
+            margin-left: $margin-side-tablet-landscape;
+            margin-right: $margin-side-tablet-landscape;
+
+            &__title {
+                width: 50%;
+            }
+
+            &__paragraph {
+                width: 50%;
+            }
+
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                &__left {
+                    padding-right: 30px;
+                }
+
+                &__left:last-of-type {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-left: $margin-side-desktop;
+                margin-right: 222px;
+
+                &__data {
+                    margin-left: $margin-side-mobile;
+                    margin-right: $margin-side-mobile;
+                    width: 40%;
+
+                    &__link:first-of-type {
+                        margin-bottom: 8px;
+                    }
+
+                    &__link {
+                        display: block;
+                        font-size: $p-big-font-size-mobile;
+                    }
+
+                    &__socials {
+                        margin-top: 30px;
+
+                        &__item {
+                            display: inline;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__general {
+            margin-top: 100px;
+            margin-left: $margin-side-desktop;
+            margin-right: 222px;
+
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                &__left {
+                    width: 100%;
+
+                    &__function {
+                        width: 60%;
+                    }
+                }
+
+                &__left:last-of-type {
+                    margin-top: 0px;
+                }
+            }
+        }
+
+        &__tabscontainer {
+            margin-top: 100px;
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-hd;
+                margin-right: $margin-side-hd;
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-hd;
+            margin-right: $margin-side-hd;
+        }
+
+        &__tabscontainer {
+            margin-left: $margin-side-hd;
+        }
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-qhd;
+                margin-right: $margin-side-qhd;
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+        }
+
+        &__tabscontainer {
+            margin-left: $margin-side-qhd;
+        }
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-4k;
+                margin-right: $margin-side-4k;
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-4k;
+            margin-right: $margin-side-4k;
+        }
+
+        &__tabscontainer {
+            margin-left: $margin-side-4k;
+        }
+    }
+}

@@ -1,0 +1,121 @@
+title: Category
+
+
+columns:
+  left:
+      width: 1/3
+      sections:
+        drafts:
+          extends: sections/machine
+          headline: Drafts
+          status: draft
+
+        unlisted:
+          extends: sections/machine
+          headline: In Review
+          status: unlisted
+
+        listed:
+          extends: sections/machine
+          headline: Published
+          status: listed
+      
+  main:
+    width: 1/3
+    fields:
+      info:
+        label: Algemene info
+        type: writer
+        inline: true
+      technologie:
+        label: Technologie
+        type: writer
+        inline: true
+
+      designsoftwaretext:
+        label: Design Software
+        type: writer
+        inline: true
+
+      designsoftwareLinks:
+        label: Design Software Links
+        type: structure
+        fields:
+          anchor:
+            label: Anker
+            type: text
+          link:
+            label: url
+            type: url
+
+      InspirationLinks:
+        label: Inspiratie
+        type: structure
+        fields:
+          anchor:
+            label: Anker
+            type: text
+          link:
+            label: url
+            type: url
+
+      creations:
+        label: Creations
+        type: structure
+        max: 8
+        fields:
+          creationImage:
+            label: Creatie foto
+            type: files
+            max: 1
+            required: true
+          creationsText:
+            label: Creations text
+            type: text
+          creationsCreator:
+            label: Creations creator
+            type: text
+
+  sidebar:
+    width: 1/3
+    fields:
+      thumbnail:
+        label: Thumbnail voor Machines pagina
+        type: files
+        max: 1
+      materialen:
+        label: Materialen
+        type: checkboxes
+        options: query
+          - PLA
+          - Wood filaments
+          - Flex
+          - PETG
+          - MDF
+          - Triplex
+          - Plexi XT
+          - Plexi GS
+          - Plexi (cast)
+          - Textiel Transfermedia (vinyl)
+          - Snijfolie
+          - Maskingtape
+          - HP G1 VR Backpack
+          - HP Reverb Pro VR Headset
+          - Fully adjustible haptic striker
+          - Windows mixed reality controller
+          - Arduino
+          - Hout
+          - Kunstof
+          - Leder
+          - Rubber
+          - Plastics
+          - Metaal
+      gallery:
+        type: files
+        layout: cards
+        image:
+          ratio: 5/4
+          cover: true
+        min: 2
+
+  

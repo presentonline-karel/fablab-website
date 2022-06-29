@@ -1,0 +1,53 @@
+Title: Vacuum forming - Mayku FormBoX
+
+----
+
+Type: Vacuum former
+
+----
+
+Manufactur: Mayku
+
+----
+
+Buildvolume: 20cm x 20xm
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: https://www.mayku.me/pages/tech-specs
+
+----
+
+Manual: https://www.mayku.me/pages/overview
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

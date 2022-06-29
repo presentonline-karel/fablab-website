@@ -1,0 +1,83 @@
+Title: Huisregels
+
+----
+
+Pdf:
+
+- huisregels.pdf
+
+----
+
+Introduction: In het KdG FabLab is iedereen welkom. Door het betreden van de ruimte verklaar je je automatisch akkoord met deze huisregels. <br><br>Alle activiteiten binnen het KdG FabLab dienen te stroken met de missie, visie en waarden van de Karel de Grote Hogeschool. De toegang tot het FabLab kan je worden ontzegd bij niet naleven van deze huisregels of de ter beschikking gestelde informatie of wanneer je handelingen en/of je gedrag ingaan tegen onze missie, visie en waarden.
+
+----
+
+Openinghours: We zijn steeds aanwezig in het FabLab voor algemene vragen en uitleg. Afhankelijk van de reservaties op dat moment kunnen we bekijken of we je meteen kunnen voorthelpen, of dat we samen beter een ander moment vastleggen.
+
+----
+
+Generalopeninghours: &gt; toegankelijk voor KdG-studenten en -medewerkers <br>&gt; maandag tot en met donderdag : 9.00u – 17.00u
+
+----
+
+Openlabmoments: &gt; toegankelijk voor iedereen - ook voor niét-KdG-studenten en -medewerkers - steeds op reservatie via de website <br>&gt; woensdag en donderdag : 13.00u - 16.00u<br><br>We vragen elke bezoeker om de openingstijden te respecteren. We starten geen nieuwe taken meer op een half uur voor sluitingstijd. Een kwartier voor sluitingstijd sluiten we de machines af en zorg je ervoor dat je je werkomgeving netjes achterlaat voor de volgende gebruiker. Volg hiervoor de beschikbaar handleiding van de gebruikte machine.
+
+----
+
+Signin: Het KdG FabLab bevindt zich op verdieping -1 van gebouw B, Salesianenlaan 90, 2660 Hoboken. Bezoekers melden zich eerst aan bij een FabLab medewerker en bespreken de opdracht alvorens ze aan de slag gaan. De FabLab medewerker controleert of je beschikt over de juiste en voldoende competenties om de machine(s) te gebruiken.
+
+----
+
+Toolsquare: Quasi elke machine in het KdG FabLab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Om alvast wat tijd te besparen, meld je je voor je eerstvolgende bezoek aan via de Toolsquare registratiepagina.<br><br>in’t kort: Elke machine is voorzien van een digital access point. Je kan op elke unit aanmelden met je KdG-medewerkers of -studentenkaart (RFID), of via een Fablab medewerker. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring). De unit communiceert met de gebruiker over de staat van de machine, over veiligheidseisen en over noodzakelijke voorzorgsmaatregelen voor die machine. Via de unit kan de gebruiker feedback geven over de machine en de uitgevoerde taak.
+
+----
+
+Toolsquarelink: https://www.google.com/
+
+----
+
+Usagemachines: Als gebruiker informeer je je voldoende door de veiligheidsvoorschriften, instructies en handleidingen van de te gebruiken machines door te nemen. Alle richtlijnen van de FabLab medewerker moeten te allen tijde nauwlettend opgevolgd worden. Als je iets niet weet of over iets twijfelt, vraag het dan aan een FabLab medewerker. De beschermingsmiddelen van de machines mogen onder geen enkele voorwaarde uitgeschakeld worden. Problemen met machines moeten meteen aan een Fablab medewerker gemeld worden en de werkzaamheden moeten ogenblikkelijk gestopt worden.<br><br>Het gebruik van de machines is op eigen risico. We bieden je de vereiste informatie en hulp, maar uiteindelijk ben je zelf verantwoordelijk voor wat je doet. We aanvaarden geen enkele aansprakelijkheid m.b.t. het gebruik van het FabLab en de machines. Het is ten strengste verboden om zelf elektrische en/of mechanische herstellingen te verrichten aan de machines. Spreek hierover steeds een FabLab medewerker aan.
+
+----
+
+Cleanliness: Laat je werkplek opgeruimd en netjes achter. Reinig de machine en de onmiddellijke omgeving zodat de werkplek proper blijft na gebruik van een machine. Berg steeds de gebruikte gereedschappen, materialen en producten oordeelkundig op. Er verlaat geen gereedschap het FabLab. Eten en drinken is niet toegestaan in de buurt van machines en PC’s. Gooi afval in de voorziene vuilbakken en sorteer!
+
+----
+
+Machinecost: KdG FabLab voorziet een heel assortiment materialen die uitermate geschikt zijn voor de verschillende machines. Een overzicht en de kostprijs van deze materialen vind je op de website, of spreek een medewerker aan. Indien nodig kan er een factuur voorzien worden, hiervoor rekenen wij een extra administratiekost van 10 euro aan.
+
+----
+
+Address: Karel de Grote Hogeschool<br>Campus Hoboken<br>Wetenschappen &amp; Technologie<br>Salesianenlaan 90<br>2660 Antwerpen<br>www.kdg.be
+
+----
+
+Intro:
+
+In het KdG FabLab is iedereen welkom. We vragen je wel aan enkele afspraken te houden.
+Door het betreden van de ruimte verklaar je je automatisch akkoord met deze huisregels. Alle activiteiten binnen het KdG FabLab dienen te stroken met de missie, visie en waarden van de Karel de Grote Hogeschool (www.kdg.be). De toegang tot het FabLab kan je worden ontzegd bij niet naleven van deze huisregels of de ter beschikking gestelde informatie of wanneer je handelingen en/of je gedrag ingaan tegen onze missie, visie en waarden.
+
+----
+
+Openingsuren: We vragen elke bezoeker om de openingstijden te respecteren. We starten geen nieuwe taken meer op een half uur voor sluitingstijd. Een kwartier voor sluitingstijd sluiten we de machines af en zorg je ervoor dat je je werkomgeving netjes achterlaat voor de volgende gebruiker. Volg hiervoor de beschikbaar handleiding van de gebruikte machine.
+
+----
+
+Aanmelden:
+
+Het KdG FabLab bevindt zich op verdieping -1 van gebouw B, Salesianenlaan 90, 2660 HOBOKEN.
+Bezoekers melden zich eerst aan bij een FabLab medewerker alvorens ze aan de slag gaan.
+Je overloopt met de FabLab medewerker je opdracht.
+De FabLab medewerker controleert of je beschikt over de juiste en voldoende competenties om de machine(s) te gebruiken.
+
+----
+
+Gebruikmachines: Gebruik machines tekstje
+
+----
+
+Ordenetheid: Orde & netheid tekstje
+
+----
+
+Machinekostmaterialen: Machinekost & materialen tekstje

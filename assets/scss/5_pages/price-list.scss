@@ -1,0 +1,32 @@
+.price-list-container {
+    &__title {
+        margin-top: 30px;
+    }
+}
+
+.answer-materials {
+    margin-top: 15px;
+}
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .price-list-container {
+        &__machine-start-up {
+            margin-top: 100px;
+            width: 50%;
+
+            &__title {
+                margin-top: 0;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__materials {
+            margin-top: 100px;
+
+            &__title {
+                margin-top: 0;
+            }
+        }
+    }
+}

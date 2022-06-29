@@ -1,0 +1,17 @@
+.machine-wrapper {
+    &__manual-wrapper {
+        &__list {
+            list-style-type: none;
+
+            &__item {
+                margin-bottom: 5px;
+            }
+
+            &__item {
+                &__link:hover {
+                    border-bottom: 4px solid $primary;
+                }
+            }
+        }
+    }
+}

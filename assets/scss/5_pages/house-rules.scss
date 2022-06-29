@@ -1,0 +1,33 @@
+.container {
+    &__block {
+        margin-top: 50px;
+
+        div {
+            margin-top: 5px;
+
+            .icon-container {
+                text-align: center;
+                margin-right: 10px;
+
+                i {
+                    font-size: 25px;
+                    width: 30px;
+                    color: $neutrals-8;
+                }
+            }
+        }
+
+        &__title {
+            margin-top: 0;
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .container {
+        &__block {
+            margin-top: 70px;
+        }
+    }
+}

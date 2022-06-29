@@ -1,0 +1,40 @@
+Title: Nieuwe blog post
+
+----
+
+Blogtext: Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt.<br><br>Veel desktop publishing pakketten en web pagina editors gebruiken tegenwoordig Lorem Ipsum als hun standaard model tekst, en een zoekopdracht naar "lorem ipsum" ontsluit veel websites die nog in aanbouw zijn.<br><br>Verscheidene versies hebben zich ontwikkeld in de loop van de jaren, soms per ongeluk soms expres (ingevoegde humor en dergelijke).
+
+----
+
+Workshop:
+
+- 
+  anchor: Schrijf je nu in voor de workshop
+  link: https://vrbase.be/
+
+----
+
+Related:
+
+- blog/nog-een-blogje
+- blog/test-2
+
+----
+
+Date: 2021-11-09
+
+----
+
+Author: 
+
+----
+
+Tags: testtag, jow
+
+----
+
+Text:
+
+Nunc accumsan venenatis velit. Ut convallis nisi porttitor dignissim tristique. Nunc a lectus sodales, fringilla magna nec, ultrices diam. Nulla id malesuada nunc, ac sollicitudin risus. Sed convallis sapien id lacinia ornare. Nullam vel fringilla ipsum. Curabitur vestibulum tempus mi.Nullam posuere dui eu risus efficitur, sit amet porta purus pretium. Curabitur euismod porta odio, quis sodales nisl egestas in. Vivamus elementum vehicula nulla id imperdiet. Quisque at ligula sit amet nibh bibendum congue.
+
+Nullam congue convallis pulvinar. Vestibulum tincidunt nulla non eros dignissim fermentum. Duis ultricies tellus et maximus placerat. Aliquam ultrices justo et nunc facilisis, sed fermentum lorem pulvinar. Vivamus sed justo sem. Nulla euismod neque vel tortor volutpat dignissim. Curabitur tristique ante non fringilla varius. Quisque congue neque ut nisi tempus faucibus euismod nec nulla. Praesent rhoncus fringilla euismod. Morbi nec eleifend odio. Nam vel elit non ipsum bibendum dapibus.

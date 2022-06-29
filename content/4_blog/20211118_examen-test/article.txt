@@ -1,0 +1,39 @@
+Title: examen test
+
+----
+
+Blogtext: Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, door ingevoegde humor of willekeurig gekozen woorden die nog niet half geloofwaardig ogen. Als u een passage uit Lorum Ipsum gaat gebruiken dient u zich ervan te verzekeren dat er niets beschamends midden in de tekst verborgen zit.<br><br>Alle Lorum Ipsum generators op Internet hebben de eigenschap voorgedefinieerde stukken te herhalen waar nodig zodat dit de eerste echte generator is op internet. Het gebruikt een woordenlijst van 200 latijnse woorden gecombineerd met een handvol zinsstructuur modellen om een Lorum Ipsum te genereren die redelijk overkomt.<br><br>De gegenereerde Lorum Ipsum is daardoor altijd vrij van herhaling, ingevoegde humor of ongebruikelijke woorden etc.
+
+----
+
+Workshop:
+
+- 
+  anchor: Schrijf je in voor de woodshop workshop
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+
+----
+
+Related:
+
+- blog/fsdqfsdqfqsdfsfd
+
+----
+
+Date: 2021-11-18
+
+----
+
+Author: 
+
+----
+
+Tags: workshop, woodshop, spaghetti
+
+----
+
+Text:
+
+dit is een test
+voor het examen

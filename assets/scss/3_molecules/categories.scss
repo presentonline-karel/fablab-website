@@ -1,0 +1,37 @@
+.categories-wrapper {
+    margin-left: $margin-side-mobile;
+    margin-right: $margin-side-mobile;
+    margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding top
+
+    &__machines {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+
+        &__category {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .categories-wrapper {
+        margin-left: $margin-side-mobile;
+        margin-right: $margin-side-mobile;
+        margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding top
+    
+        &__machines {
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: $desktop-1280) {
+    .categories-wrapper {
+        margin: $margin-side-desktop;
+    }
+}

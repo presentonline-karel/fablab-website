@@ -1,0 +1,53 @@
+Title: Brother ScanNCut SDX 1200
+
+----
+
+Type: Snijplotter
+
+----
+
+Manufactur: Brother
+
+----
+
+Buildvolume: Snijbreedte: 291 mm, Snijlengte : 610 mm, Snijdiepte : tot 3 mm
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: 
+
+----
+
+Manual: https://www.brother.eu/-/media/product-downloads/bsme/nl/brother_scanncut_sdx1000_sdx1200_nl.pdf
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

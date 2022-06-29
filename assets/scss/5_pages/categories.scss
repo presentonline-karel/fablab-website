@@ -1,0 +1,41 @@
+.categories-wrapper {
+    &__machines {
+        display: block;
+
+        &__category {
+            margin-bottom: 50px;
+        }
+
+        &__category:last-of-type {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__p {
+        margin-bottom: 30px;
+    }
+}
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .categories-wrapper {
+        &__machines {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 60px;
+
+            &__category {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .categories-wrapper {
+        &__machines {
+            gap: 100px;
+        }
+    }
+}

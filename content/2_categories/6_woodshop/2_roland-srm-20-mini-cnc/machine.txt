@@ -1,0 +1,53 @@
+Title: Roland SRM-20 (mini CNC)
+
+----
+
+Type: CNC machine
+
+----
+
+Manufactur: Roland
+
+----
+
+Buildvolume: 
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: https://www.rolanddga.com/products/3d/srm-20-small-milling-machine
+
+----
+
+Manual: https://www.rolanddga.com/products/3d/srm-20-small-milling-machine/features
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

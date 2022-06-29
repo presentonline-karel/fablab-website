@@ -1,0 +1,144 @@
+title: Site
+
+tabs:
+  content:
+    icon: dashboard
+    columns:
+      - width: 1/3
+        sections:
+          listed:
+            headline: Listed pages
+            type: pages
+            status: listed
+          unlisted:
+            headline: Unlisted pages
+            type: pages
+            status: unlisted
+          drafts:
+            headline: Drafts
+            type: pages
+            status: draft
+
+      - width: 2/3
+        sections:
+        fields:
+          address:
+            label: Adres
+            type: text
+          email:
+            label: Email
+            type: text
+          socials:
+            label: Socials
+            type: structure
+            columns:
+              social:
+                width: 1/4
+              url:
+                width: 1/2
+            fields:
+              social:
+                type: select
+                options:
+                  facebook: Facebook
+                  instagram: Instagram
+                  linkedin: LinkedIn
+                  youtube: YouTube
+                  pinterest: Pinterest
+                  reddit: Reddit
+                  kdg: KdG Website
+              url:
+                type: url
+
+          openhoursTitle:
+            label: Openingsuren titel
+            type: text
+          openhoursKdGTitle:
+            label: Openingsuren intern titel
+            type: text
+          openhoursKdGText:
+            label: Openingsuren intern uren
+            type: text
+          openhoursExternTitle:
+            label: Openingsuren extern titel
+            type: text
+          openhoursExternText:
+            label: Openingsuren extern uren
+            type: text
+
+          navigationTitle:
+            label: Navigatie titel
+            type: text
+          navigationLinks:
+            label: Menu items
+            type: structure
+            columns:
+              anchor:
+                width: 1/2
+              page:
+                width: 1/2
+            fields:
+              anchor:
+                label: Anker
+                type: text
+              page:
+                label: Pagina
+                type: pages
+
+          infoTitle:
+            label: Info titel
+            type: text
+          infoLinks:
+            label: Andere pagina's
+            type: structure
+            columns:
+              anchor:
+                width: 1/2
+              page:
+                width: 1/2
+            fields:
+              anchor:
+                label: Anker
+                type: text
+              page:
+                label: Pagina
+                type: pages
+
+          partnersFooter:
+            label: Partner logo's
+            type: structure
+            columns:
+              logo:
+                width: 1/6
+              website:
+                width: 5/6
+            fields:
+              logo:
+                label: Logo
+                type: files
+                max: 1
+                required: true
+              website:
+                label: Website partners
+                type: text
+                required: true
+  settings:
+    icon: cog
+    fields:
+      admins:
+        label: Admins
+        type: structure
+        fields:
+          email:
+            label: Email
+            type: email
+          adminType:
+            label: Admin-Type
+            type: radio
+            options:
+              bewerker: Bewerker
+              lezer: Lezer
+      fablabLogo:
+        label: Fablab logo
+        type: files
+        max: 1

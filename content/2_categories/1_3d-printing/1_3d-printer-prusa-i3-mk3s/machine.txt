@@ -1,0 +1,85 @@
+Title: Prusa i3 MK3S
+
+----
+
+Amount: 1
+
+----
+
+Type: 3D printer
+
+----
+
+Manufactur: Prusa
+
+----
+
+Buildvolume: X 25cm x Y 21cm x Z 21cm (9,84 x 8,3 x 8,3 inch)
+
+----
+
+Nozzle: 0,4 mm
+
+----
+
+Filament: 1,75 mm
+
+----
+
+Layerheights: vanaf 0,05 mm
+
+----
+
+Layerresolution: vanaf 0,05 mm
+
+----
+
+Bed: Heated spring steel sheets
+
+----
+
+Extraspecs: kabeldikte: 5cm
+
+----
+
+Software: https://www.prusa3d.com/drivers/
+
+----
+
+Manual: https://www.prusa3d.com/drivers/
+
+----
+
+Tutorials:
+
+- 
+  title: Tutorial 1
+  url: 'https://www.youtube.com/watch?v=nb-Bzf4nQdE&t=3s'
+- 
+  title: Een tutorial over de machine
+  url: >
+    https://www.youtube.com/watch?v=a6elq83OVWQ
+
+----
+
+Creation: 
+
+----
+
+Isavailable: no
+
+----
+
+Filetypes: pla, flex
+
+----
+
+Category: 3D printing
+
+----
+
+Supported-file-types: STL, OBJ
+
+----
+
+Tutorial: https://www.youtube.com/watch?v=nb-Bzf4nQdE

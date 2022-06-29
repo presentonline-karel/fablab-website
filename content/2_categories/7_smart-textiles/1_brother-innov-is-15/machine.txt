@@ -1,0 +1,53 @@
+Title: Brother Innov-is 15
+
+----
+
+Type: Sewing machine
+
+----
+
+Manufactur: Brother
+
+----
+
+Buildvolume: 
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: 
+
+----
+
+Manual: https://sewingcraft.brother.eu/nl-be/products/machines/sewing-machines/beginner-sewing-machines/innov-is-15
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

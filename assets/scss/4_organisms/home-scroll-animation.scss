@@ -1,0 +1,166 @@
+.home-animations {
+    &__container {
+        &__scroll-animation {
+            height: 100vh;
+
+            &__link {
+                &__arrowcontainer {
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    bottom: 35px;
+                    right: $margin-side-mobile;
+
+                    &__arrow {
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        border-bottom: 5px solid $neutrals-0;
+                        border-right: 5px solid $neutrals-0;
+                        transform: rotate(45deg);
+                        margin: 0px;
+                        animation: scroll 2s infinite;
+                    }
+
+                    &__arrow:nth-child(2) {
+                        animation-delay: -0.2s;
+                    }
+
+                    &__arrow:nth-child(3) {
+                        animation-delay: -0.4s;
+                    }
+                }
+            }
+
+            i {
+                animation: bounce 3s ease-out infinite;
+            }
+
+            @keyframes bounce {
+                0% {
+                    padding-bottom: 15px;
+                }
+                50% {
+                    padding-bottom: 0px;
+                }
+                100% {
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-tablet-portrait;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-tablet-landscape;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        bottom: 62px;
+                        right: $margin-side-desktop;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        bottom: 80px;
+                        right: $margin-side-hd;
+
+                        &__arrow {
+                            width: 30px;
+                            height: 30px;
+                            margin: -10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-qhd;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-4k;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+title: FAQ
+
+sections:
+  info:
+    type: fields
+    fields:
+      FAQs:
+        label: Veelgestelde vragen
+        type: structure
+        fields: 
+            question:
+              label: Vraag
+              type: writer
+              inline: true
+            answer:
+              label: Antwoord
+              type: writer
+              inline: true

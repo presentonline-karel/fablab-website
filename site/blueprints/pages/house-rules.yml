@@ -1,0 +1,49 @@
+title: Huisregels
+
+sections:
+  info:
+    type: fields
+    fields:
+      pdf:
+        label: PDF Huisregels
+        type: files
+        max: 1
+      introduction:
+        label: Introduction
+        type: writer
+        inline: true
+      openinghours:
+        label: Openingsuren FabLab
+        type: writer
+        inline: true
+      generalOpeninghours:
+        label: Algemeen
+        type: writer
+        inline: true
+      openLabMoments:
+        label: Open Lab Momenten
+        type: writer
+        inline: true
+      signin:
+        label: Aanmelden
+        type: writer
+        inline: true
+      toolsquare:
+        label: Toolsquare text
+        type: writer
+        inline: true
+      toolsquareLink:
+        label: Toolsquare link
+        type: url
+      usageMachines:
+        label: Gebruik machines
+        type: writer
+        inline: true
+      cleanliness:
+        label: Orde, Netheid
+        type: writer
+        inline: true
+      machinecost:
+        label: Machinekost & materialen
+        type: writer
+        inline: true

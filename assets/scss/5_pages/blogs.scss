@@ -1,0 +1,56 @@
+.blog-wrapper {
+    &__blog-overview {
+        .text-wrapper-mobile {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .blog-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 50px;
+
+        &__blog-overview {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__text-wrapper {
+                &__link {
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+//DESKTOP vanaf 1280px
+@media screen and (min-width: $desktop-1280) {
+    .blog-wrapper {
+        display: none;
+
+        &__blog-overview {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__text-wrapper {
+                &__link {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+
+    .blog-wrapper-desktop {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        margin-top: 30px;
+    }
+}

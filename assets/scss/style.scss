@@ -1,0 +1,64 @@
+@import "./1_fundaments/fonts";
+@import "./1_fundaments/colors";
+@import "./1_fundaments/spacers";
+@import "./1_fundaments/test";
+@import "./1_fundaments/setup";
+@import "./1_fundaments/flexbox";
+
+
+@import "./2_atoms/titles";
+@import "./2_atoms/paragraphs";
+@import "./2_atoms/icons";
+@import "./2_atoms/images";
+@import "./2_atoms/buttons";
+@import "./2_atoms/links";
+
+
+@import "./3_molecules/responsive-nav";
+@import "./3_molecules/forms";
+@import "./3_molecules/blogoverview";
+@import "./3_molecules/tagfilter";
+@import "./3_molecules/maps";
+@import "./3_molecules/categories";
+@import "./3_molecules/dropdown";
+@import "./3_molecules/available-materials";
+@import "./3_molecules/design-software";
+@import "./3_molecules/inspiration";
+@import "./3_molecules/machines-list";
+@import "./3_molecules/breadcrumb";
+@import "./3_molecules/machine-banner";
+@import "./3_molecules/manual-list";
+@import "./3_molecules/tutorials";
+@import "./3_molecules/arrow-up-container";
+@import "./3_molecules/tables";
+
+
+@import "./4_organisms/accordions";
+@import "./4_organisms/header";
+@import "./4_organisms/banners";
+@import "./4_organisms/home-type-animation";
+@import "./4_organisms/home-scroll-animation";
+@import "./4_organisms/footer";
+@import "./4_organisms/article-relatedArticles";
+@import "./4_organisms/blog-tagFilter";
+@import "./4_organisms/article-modal";
+@import "./4_organisms/category-carousel";
+@import "./4_organisms/article-modal-copied";
+@import "./4_organisms/containers";
+@import "./4_organisms/tabbar";
+@import "./4_organisms/carousel";
+
+
+@import "./5_pages/contact";
+@import "./5_pages/blogs";
+@import "./5_pages/article";
+@import "./5_pages/home";
+@import "./5_pages/category";
+@import "./5_pages/machine";
+@import "./5_pages/what-is-fablab";
+//@import "./5_pages/faq";
+@import "./5_pages/house-rules";
+@import "./5_pages/price-list";
+@import "./5_pages/error";
+@import "./5_pages/categories";
+@import "./5_pages/reserve";

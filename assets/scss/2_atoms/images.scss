@@ -1,0 +1,311 @@
+// MOBILE
+
+// CONTACT
+.contact-container {
+    &__general {
+        &__flexbox {
+            &__left {
+                &__img {
+                    width: 100px;
+                    height: 100px;
+                    object-fit: cover;
+                    //transform: skewY(5deg);
+                    border-radius: $border-radius-big;
+                    margin-left: 14px;
+                }
+            }
+        }
+    }
+}
+
+//BLOG
+.blog-wrapper {
+    &__blog-overview {
+        &__img {
+            object-fit: cover;
+            width: 100%;
+            height: 225px;
+            overflow: hidden;
+            border-top-left-radius: 4%;
+            border-top-right-radius: 4%;
+        }
+    }
+}
+
+.overview-image {
+    width: 337.5px;
+    height: 225px;
+    object-fit: cover;
+}
+
+// CATEGORY
+.category-wrapper {
+    &__images-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 100px;
+
+        &__img {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: $border-radius-big;
+            //transform: skewY(-5deg);
+            //margin-left: 14px;
+            position: relative;
+        }
+
+        &__img:nth-child(even) {
+            //align-self: end;
+            //bottom: 50px;
+            border: 7px solid $neutrals-1;
+            margin-top: 50px;
+            margin-right: $margin-side-mobile;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+.category-wrapper {
+    &__machines-wrapper {
+        &__list {
+            &__item {
+                &__link {
+                    text-align: center;
+
+                    &__img {
+                        border-radius: $border-radius-big;
+                        width: 50%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.machine-wrapper {
+    &__img {
+        border-radius: $border-radius-small;
+        margin-top: 30px;
+    }
+
+    &__img-desktop {
+        display: none;
+    }
+}
+
+// HEADER
+.header {
+    &__logo {
+        &__img {
+            width: 70px;
+            margin-top: 5px;
+        }
+    }
+}
+
+// FOOTER
+.footer {
+    &__content {
+        &__block {
+            &__imageholder {
+                display: block;
+                width: 100%;
+                text-align: left;
+
+                &__img {
+                    width: 215px;
+                }
+            }
+        }
+    }
+}
+
+// HOME
+.home-container {
+    &__partners {
+        &__img {
+            display: block;
+            width: 215px;
+        }
+    }
+}
+
+.home-img {
+    border-radius: $border-radius-big;
+}
+
+// WHAT IS FABLAB
+.team {
+    &__container {
+        &__img {
+            width: 27vw;
+            height: 27vw;
+            object-fit: cover;
+            border-radius: $border-radius-big;
+        }
+    }
+}
+.team-desktop {
+    &__container {
+        &__img {
+            border-radius: $border-radius-big;
+        }
+    }
+}
+
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    
+    // WHAT IS FABLAB
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__container {
+                            &__flexbox {
+                                &__box {
+                                    &__img {
+                                        width: 32vw;
+                                        height: 32vw;
+                                        object-fit: cover;
+                                        border-radius: $border-radius-big;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // CATEGORY
+    .category-wrapper {
+        &__images-wrapper {
+            margin-bottom: 125px;
+
+            &__img {
+                display: initial;
+            }
+
+            &__img:nth-child(even) {
+                //align-self: end;
+                //bottom: 50px;
+                border: 7px solid $neutrals-1;
+                margin-top: 0px;
+                margin-right: 0;
+                position: relative;
+                right: initial;
+                top: 75px;
+                right: 100px;
+            }
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .machine-wrapper {
+        &__img {
+            width: 50%;
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    // CONTACT
+    .contact-container {
+        &__general {
+            &__flexbox {
+                &__left {
+                    &__img {
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+
+    //CATEGORY
+    .category-wrapper {
+        &__images-wrapper {
+            /*padding-top: 30px;
+            margin-bottom: -30px;
+            display: flex;
+            flex-direction: column; */
+            padding-top: 50px;
+
+            &__img {
+                width: 250px;
+                height: 250px;
+            }
+            &__img:nth-child(even) {
+                top: 125px;
+                right: 125px;
+            }
+        }
+    }
+
+    //MACHINE-DETAIl
+    .machine-wrapper {
+        &__img {
+            display: none;
+        }
+        &__img-desktop {
+            display: block;
+            max-width: 560px;
+            max-height: 315px;
+        }
+    }
+    //BLOG
+    .blog-wrapper {
+        &__blog-overview {
+            &__img {
+                //width: 307px;
+                width: 100%;
+                height: 200px;
+            }
+        }
+    }
+    // FOOTER
+    .footer {
+        &__content {
+            &__block {
+                &__imageholder {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1600PX
+@media screen and (min-width: $desktop-1600) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    &__flexbox {
+                        &__box {
+                            &__img {
+                                width: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

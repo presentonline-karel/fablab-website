@@ -1,0 +1,415 @@
+.home-container {
+    background-color: $neutrals-1;
+    padding-bottom: 50px;
+
+    &__partnersflexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+        width: 100%;
+
+        &__box {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            bottom: 0;
+            right: $margin-side-mobile;
+
+            &__container {
+                background-color: $primary;
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+                position: relative;
+                border: 2px solid $primary;
+
+                &__link {
+                    width: 100%;
+                    height: 100%;
+                    padding: 17px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+
+.message {
+    padding-left: $margin-side-mobile;
+    padding-right: $margin-side-mobile;
+    background-color: $primary;
+    padding-bottom: 30px;
+    color: $neutrals-10;
+}
+
+.home-animations {
+    &__container {
+        display: flex;
+        height: 88vh;
+
+        &__scroll-animation {
+            position: relative;
+            width: 100vw;
+            text-align: center;
+        }
+    }
+}
+
+.introduction {
+    &__content {
+        padding-bottom: 50px;
+    }
+
+    .flex-column {
+        border: 2px solid $primary;
+        border-right: none;
+        background-color: $neutrals-0;
+        border-radius: $border-radius-big;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__openhours {
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+    }
+
+    &__openhours:last-of-type {
+        margin-top: 20px;
+    }
+}
+
+.info {
+    .banner-fablab {
+        background-image: url("../../assets/images/fablab.webp");
+    }
+
+    .banner-biolab {
+        background-image: url("../../assets/images/biolab.webp");
+    }
+
+    &__imagecontainer {
+        display: none;
+    }
+}
+
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .home-container {
+        &__partnersflexbox {
+            padding-left: $margin-side-tablet-portrait;
+            padding-right: $margin-side-tablet-portrait;
+        }
+
+        &__partners {
+            &__img {
+                display: inline-block;
+            }
+        }
+    }
+
+    .message {
+        padding-left: $margin-side-tablet-portrait;
+        padding-right: $margin-side-tablet-portrait;
+    }
+
+    .introduction {
+        .flex-column {
+            padding-left: $margin-side-tablet-portrait;
+            padding-right: $margin-side-tablet-portrait;
+        }
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .home-container {
+        &__partnersflexbox {
+            padding-left: $margin-side-tablet-landscape;
+            padding-right: $margin-side-tablet-landscape;
+        }
+
+        &__partners {
+            &__img {
+                display: inline-block;
+            }
+        }
+    }
+
+    .message {
+        padding-left: $margin-side-tablet-landscape;
+        padding-right: $margin-side-tablet-landscape;
+    }
+
+    .introduction {
+        &__content {
+            width: 60%;
+            padding-bottom: 0;
+        }
+    
+        .flex-column {
+            border-radius: 15px 0px 0px 15px;
+            height: 27vh;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            display: inline-block;
+        }
+
+        &__content {
+            display: inline-block;
+            width: 60%;
+        }
+    
+        &__imagecontainer {
+            display: inline-block;
+            width: 40%;
+            margin-right: $margin-side-tablet-landscape;
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .home-container {
+        padding-bottom: 60px;
+
+        &__partners {
+            margin-top: 60px;
+        }
+
+        &__partnersflexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative;
+            padding-left: $margin-side-desktop;
+            padding-right: $margin-side-desktop;
+
+            &__box {
+                width: 75px;
+                height: 75px;
+                position: absolute;
+                bottom: 0;
+                right: $margin-side-desktop;
+
+                &__container {
+                    &__link {
+                        padding: 25px;
+                    }
+                }
+
+                &__container:hover {
+                    background-color: $neutrals-1;
+                    border: 2px solid $neutrals-9;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+
+    .message {
+        padding-left: $margin-side-desktop;
+        padding-right: $margin-side-desktop;
+        padding-bottom: 30px;
+    }
+
+    .home-animations {
+        height: 100vh;
+
+        &__container {
+            &__typing-animation {
+                height: 100vh;
+                margin-left: 0;
+
+                .intro {
+                    .typing {
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            &__scroll-animation {
+                height: 100vh;
+            }
+        }
+    }
+
+    .introduction {
+        margin-top: 100px;
+
+        &__content {
+            width: 60% !important;
+            padding-bottom: 0;
+        }
+    
+        .flex-column {
+            border-radius: 15px 0px 0px 15px;
+            height: 27vh;
+            width: 50%;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-desktop;
+        }
+    }
+}
+
+// DESKTOP - 1440PX
+@media screen and (min-width: $desktop-1440) {
+    .introduction {
+        .flex-column {
+            height: 21vh;
+        }
+    }
+}
+
+// DESKTOP - 1536PX
+@media screen and (min-width: $desktop-1536) {
+    .introduction {
+        .flex-column {
+            height: 21vh;
+            width: 40%;
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .home-container {
+        &__partnersflexbox {
+            padding-left: $margin-side-hd;
+            padding-right: $margin-side-hd;
+
+            &__box {
+                right: $margin-side-hd;
+            }
+        }
+    }
+
+    .message {
+        padding-left: $margin-side-hd;
+        padding-right: $margin-side-hd;
+    }
+
+    .introduction {
+        .flex-column {
+            border-right: 2px solid $primary;
+            margin-right: $margin-side-hd;
+            border-radius: 15px;
+            height: 21vh; //19?
+            width: 30%;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-hd;
+            width: 50% !important;
+        }
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .home-container {
+        &__partnersflexbox {
+            padding-left: $margin-side-qhd;
+            padding-right: $margin-side-qhd;
+
+            &__box {
+                right: $margin-side-qhd;
+            }
+        }
+    }
+
+    .message {
+        padding-left: $margin-side-qhd;
+        padding-right: $margin-side-qhd;
+    }
+
+    .home-animations {
+        &__container {
+            height: calc(100vh - 140px); //140px is height of menu
+        }
+    }
+
+    .introduction {
+        .flex-column {
+            margin-right: $margin-side-qhd;
+            height: 15vh;
+            width: 27%;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-qhd;
+            width: 45% !important; //26
+        }
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .home-container {
+        &__working {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-4k;
+                    width: 18%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-4k;
+                    width: 18%;
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            padding-left: $margin-side-4k;
+            padding-right: $margin-side-4k;
+
+            &__box {
+                right: $margin-side-4k;
+            }
+        }
+    }
+
+    .message {
+        padding-left: $margin-side-4k;
+        padding-right: $margin-side-4k;
+    }
+
+    .introduction {
+        .flex-column {
+            margin-right: $margin-side-4k;
+            height: 10vh;
+            width: 18%;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-4k;
+            width: 30% !important;
+        }
+    }
+}

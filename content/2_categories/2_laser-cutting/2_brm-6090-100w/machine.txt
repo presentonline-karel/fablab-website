@@ -1,0 +1,53 @@
+Title: BRM 6090 – 100W
+
+----
+
+Type: Lasermachine
+
+----
+
+Manufactur: BRM
+
+----
+
+Buildvolume: 
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 58x89cm
+
+----
+
+Software: https://vrotech.nl/machines/pro900/
+
+----
+
+Manual: 
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

@@ -1,0 +1,34 @@
+title: Reserveren
+
+columns:
+  - width: 1/2
+    fields:
+      paragraph:
+        label: Paragraaf
+        type: writer
+        inline: true
+      imageFablab:
+        type: files
+        max: 1
+  
+  - width: 1/2
+    fields:
+      items:
+        label: Items
+        type: structure
+        fields:
+          identifier:
+            label: icoontje
+            type: select
+            options:
+              - Agenda
+              - Personen
+              - Mastercard
+          title:
+            label: Titel item
+            type: text
+          text:
+            label: Tekstje item
+            type: text
+      
+      

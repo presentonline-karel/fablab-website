@@ -1,0 +1,303 @@
+Title: Home
+
+----
+
+Backgroundimg:
+
+- 3d-printing.jpg
+
+----
+
+Messagetitle: FabLab gesloten tot 20 november
+
+----
+
+Messagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at consequat nibh, id iaculis magna. Nunc facilisis urna quis nisi sollicitudin, quis dignissim orci dignissim.
+
+----
+
+Whatisfablabtitle: Wat is Fablab?
+
+----
+
+Whatisfablabtext: Het KdG FabLab is een maakplaats voor iedereen. Je vindt er onder andere 3D-printers, een Makerbot, lasercutters, een CNC-frees, AR/VR-space, een woodshop, een textielatelier, een elektronica-corner en educatieve tools zoals Makey Makeys, Microbits en Strawbees. Je kan er je ideeën omzetten naar tastbare producten, studenten en andere makers ontmoeten, je laten inspireren, kennis en ideeën uitwisselen en zoveel meer.
+
+----
+
+Whatisfablabbuttontext: Meer over FabLab
+
+----
+
+Openhourskdgtitle: Openingsuren voor KdG-medewerkers en studenten
+
+----
+
+Openhourskdgtext: ma - do: 9.00u - 17.00u
+
+----
+
+Openhoursexterntitle: Open Lab Momenten (steeds op reservatie)
+
+----
+
+Openhoursexterntext: woe - do: 13.00u - 17.00u
+
+----
+
+Workingfablabtitle: Werking FabLab
+
+----
+
+Workingfablabtext: Het KdG FabLab is geopend van maandag tot donderdag tijdens campusuren voor KdG-medewerkers en studenten. Woensdag en donderdag is het FabLab ook open voor externen. We werken liefst op reservatie, zo kunnen we jou steeds de juiste begeleiding bieden en van de nodige materialen voorzien. Ons team is steeds aanwezig voor vragen en inlichtingen en helpen je graag bij het omzetten van jouw ideeën naar een prototype of een eindproduct. Elke machine in het KdG FabLab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring). De unit communiceert met de gebruiker over de staat van de machine, over veiligheidseisen en over noodzakelijke voorzorgsmaatregelen voor die machine. Via de unit kan de gebruiker feedback geven over de machine en de uitgevoerde klus. Om alvast wat tijd te besparen, meldt u zich voor uw eerstvolgende bezoek aan de<a href="https://kdg.toolsquare.io/login" target="_blank" rel="noopener noreferrer nofollow"> </a><u><a href="https://kdg.toolsquare.io/login" target="_blank" rel="noopener noreferrer nofollow">Toolsquare registratiepagina</a></u>.
+
+----
+
+Workingfablabbuttontext: Meer over huisregels
+
+----
+
+Workingfablabimage:
+
+- fablab.webp
+
+----
+
+Biolabtitle: Biolab
+
+----
+
+Biolabtext:
+
+Naast het FabLab is er ook nog het BioLab, dit is een initiatief van KdG FabLab en de bacheloropleiding Chemie van KdG. Ben je geïnteresseerd in innovatieve, duurzame biochemische design-processen? Neem dan zeker eens een kijkje op de website van BioLab! 
+BioLab biedt immers de mogelijkheid tot het opzetten van onderzoeksprojecten in een fablab omgeving. Je kan onder begeleiding van ervaren mentoren hands-on industriële toepassingen onderzoeken en levensvatbare concepten uittekenen.
+
+----
+
+Biolabbuttontext: Bezoek BioLab website
+
+----
+
+Biolabimage:
+
+- biolab.webp
+
+----
+
+Manufacturers:
+
+- 
+  image:
+    - logo-makerbot-1.png
+  url: https://www.makerbot.com/j,uik
+  alt: ""
+- 
+  image:
+    - dewalt-1.png
+  url: https://www.dewalt.be/
+  alt: ""
+- 
+  image:
+    - dremel-1.png
+  url: https://www.dremel.com/be/nl
+  alt: ""
+- 
+  image:
+    - prusa-_-3d-printer-1.png
+  url: https://www.prusa3d.com/
+  alt: ""
+- 
+  image:
+    - roland_-srm-20-1.png
+  url: >
+    https://www.thomann.de/be/roland.html?gclid=Cj0KCQiAys2MBhDOARIsAFf1D1fyhgUz6cjuN0j0g1DevJnLU_00dqqVbf0WKZ48tyq0OzHJd2EgON4aAlqgEALw_wcB
+  alt: ""
+- 
+  image:
+    - mayku-formbox-1.png
+  url: 'https://nl.rs-online.com/web/p/vacuum-forming/1785377?cm_mmc=NL-PPC-DS3A-_-google-_-DSA_NL_EN_CatchAll_Index-_-Catch+All-_-DYNAMIC+SEARCH+ADS&matchtype=b&dsa-19959388920&gclid=Cj0KCQiAys2MBhDOARIsAFf1D1elzRSmmxUQRs6YdKoKijZnXhae5QW5GZkojHlHMeozX4PKaVSe8TAaAgArEALw_wcB&gclsrc=aw.ds'
+  alt: ""
+- 
+  image:
+    - matter-and-form-_-3d-scanner-1.png
+  url: 'https://www.keyence.eu/nlnl/landing/lpc/1901-sem-contourvormmeetsysteem.jsp?aw=gagooglekbbenlnonbrmicvr299&gclid=Cj0KCQiAys2MBhDOARIsAFf1D1f9fk5S2MwtDx6KB2l8kDc3cX1Uu7PTNUhoXUdukXXorroTDj2XHrcaAohOEALw_wcB'
+  alt: ""
+- 
+  image:
+    - ferm_kolomboor-1.png
+  url: https://www.samenferm.be/
+  alt: ""
+- 
+  image:
+    - festool-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - dewalt-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - dremel-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - ferm_kolomboor-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - ferm_kolomboor-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - festool-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - logo-makerbot-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - makita-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - matter-and-form-_-3d-scanner-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - mayku-formbox-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - makita-1.png
+  url: https://www.festool.be/
+  alt: ""
+- 
+  image:
+    - dewalt-1.png
+  url: https://www.instagram.com
+  alt: ""
+- 
+  image:
+    - mayku-formbox-1.png
+  url: https://www.kdg.be
+  alt: ""
+- 
+  image:
+    - dremel-1.png
+  url: https://www.instagram.com
+  alt: ""
+- 
+  image:
+    - optimum-kolomboor-1.png
+  url: https://www.facebook.com
+  alt: ""
+- 
+  image:
+    - roland_-srm-20-1.png
+  url: https://www.festool.be/
+  alt: ""
+
+----
+
+Fablabs:
+
+- 
+  image:
+    - festool-1.png
+  url: https://www.festool.be/
+  alt: logo festool
+- 
+  image:
+    - makita-1.png
+  url: https://www.makita.be/
+  alt: ""
+- 
+  image:
+    - weller_soldeer-1.png
+  url: https://www.weller-tools.com/index.html
+  alt: ""
+
+----
+
+Partners:
+
+- 
+  logo:
+    - kdg_h_closed_black_srgb.png
+  website: https://www.kdg.be/
+- 
+  logo:
+    - >
+      provincie_antwerpen_logo_rgb_nobackground.png
+  website: https://www.provincieantwerpen.be/
+
+----
+
+Logosmanufacturers:
+
+- logo-makerbot-1.png
+- matter-and-form-_-3d-scanner-1.png
+- mayku-formbox-1.png
+- prusa-_-3d-printer-1.png
+- dewalt-1.png
+- dremel-1.png
+- ferm_kolomboor-1.png
+- festool-1.png
+- makita-1.png
+- optimum-kolomboor-1.png
+- weller_soldeer-1.png
+- roland_-srm-20-1.png
+
+----
+
+Logofablabs:
+
+- dewalt-1.png
+- dremel-1.png
+- ferm_kolomboor-1.png
+- festool-1.png
+
+----
+
+Workingfablabsubtitle: Toolsquare
+
+----
+
+Watiseenfablab:
+
+Het KdG Fablab is een maakplaats voor iedereen. 
+Je vindt er onder andere 3D-printers, een Makerbot tot educatieve tools zoals Makey Makeys. 
+Je kan er je ideeën omzetten naar tastbare producten, studenten en andere makers ontmoeten, je laten inspireren, kennis en ideeën uitwisselen en zoveel meer.
+
+----
+
+Werkingfablab:
+
+Het KdG Fablab is geopend van maandag tot donderdag tijdens campusuren voor KdG-medewerkers en studenten. Woensdag en donderdag is het Fablab ook open voor externen. 
+We werken liefst op reservatie, zo kunnen we jou steeds de juiste begeleiding bieden en van de nodige materialen voorzien. Ons team is steeds aanwezig voor vragen en inlichtingen en helpen je graag bij het omzetten van jouw ideeën naar een prototype of een eindproduct.
+
+----
+
+Toolsquare:
+
+Toolsquare
+Elke machine in het KdG Fablab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring).
+
+----
+
+Biolab:
+
+Naast het Fablab is er ook nog het Biolab, dit is een initiatief van KdG Fablab en de bacheloropleiding Chemie. 
+
+Ben je geïnteresseerd in innovatieve, duurzame biochemische design-processen? Neem dan zeker eens een kijkje op hun website! 
+Biolab biedt immers de mogelijkheid tot het opzetten van onderzoeksprojecten in een Fablab omgeving. Je kan onder begeleiding van ervaren mentoren hands-on industriële toepassingen onderzoeken en levensvatbare concepten uittekenen.

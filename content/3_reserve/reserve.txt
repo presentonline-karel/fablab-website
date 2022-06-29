@@ -1,0 +1,32 @@
+Title: Reserveren
+
+----
+
+Paragraph: Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem.<br><br>Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met.
+
+----
+
+Imagefablab:
+
+- fablab.webp
+
+----
+
+Items:
+
+- 
+  identifier: Agenda
+  title: Open lab momenten
+  text: 'woe-do: 13.00u - 17.00u'
+- 
+  identifier: Personen
+  title: Assistentie
+  text: bij vragen en problemen
+- 
+  identifier: Mastercard
+  title: Snel betalen
+  text: met bancontact
+
+----
+
+Image: - fablab.webp

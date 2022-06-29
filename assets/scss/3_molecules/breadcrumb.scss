@@ -1,0 +1,68 @@
+.breadcrumb {
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: $neutrals-7;
+
+    .breadcrumb-item {
+        font-weight: normal;
+    }
+
+    .breadcrumb_last {
+        font-weight: bold;
+    }
+}
+
+.breadcrump-margin {
+    margin-left: $margin-side-mobile;
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .breadcrump-margin {
+        margin-left: $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .breadcrump-margin {
+        margin-left: $margin-side-tablet-landscape;
+    }
+}
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    .breadcrump-margin {
+        margin-left: $margin-side-desktop;
+    }
+}
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .breadcrump-margin {
+        margin-left: $margin-side-hd;
+    }
+}
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .breadcrump-margin {
+        margin-left: $margin-side-qhd;
+    }
+}
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .breadcrump-margin {
+        margin-left: $margin-side-4k;
+    }
+}

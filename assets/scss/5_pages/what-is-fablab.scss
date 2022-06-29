@@ -1,0 +1,154 @@
+.team {
+    background-color: $neutrals-0;
+    border: 2px solid $primary;
+    padding: 55px 16px 20px 16px;
+    position: relative;
+    border-radius: $border-radius-small;
+
+    &__titlecontainer {
+        position: absolute;
+        background-color: $neutrals-10;
+        color: $primary;
+        top: -25px;
+        left: 15%;
+        transform: skewY(-2deg);
+    }
+
+    &__container {
+        .employee:last-of-type {
+            margin-top: 20px;
+        }
+        
+        div > div {
+            min-width: 40%;
+        }
+
+        div > div:first-of-type {
+            margin-bottom: 10px;
+        }
+
+        &__function {
+            color: $neutrals-8;
+            font-size: $p-small-font-size-mobile;
+            line-height: 18px;
+        }
+    }
+}
+
+.team-desktop {
+    display: none;
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .team {
+        padding: 0px 30px 30px 30px;
+
+        &__titlecontainer {
+            left: 18vw;
+        }
+    }
+
+    .employee {
+        padding-top: 70px;
+    }
+
+    .employee:last-of-type {
+        padding-top: 30px;
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .introduction-wif {
+        margin-top: 0 !important;
+    }
+    
+    .team {
+        display: none;
+    }
+
+    .team-desktop {
+        margin-top: 33px;
+        display: inline-block;
+        width: 50%;
+        position: relative;
+        padding-left: 37px;
+
+        &__titlecontainer {
+            position: absolute;
+            background-color: $neutrals-10;
+            left: 14vw;
+            top: -30px;
+            width: 230px;
+            height: 50px;
+            transform: skewY(-2deg);
+            color: $primary;
+            text-align: center;
+
+            &__title {
+                margin-top: 13px;
+            }
+        }
+
+        &__container {
+            background-color: $neutrals-0;
+            border: 2px solid $primary;
+            width: 100%;
+            border-radius: $border-radius-big;
+            padding: 40px;
+
+            &__title {
+                margin-top: 27px;
+            }
+
+            .employee:first-of-type {
+                padding-top: 10px;
+            }
+
+            .employee {
+                margin-bottom: 20px;
+
+                > div {
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1536PX
+@media only screen and (min-width: $desktop-1536) {
+    .team-desktop {
+        &__titlecontainer {
+            left: 16vw;
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .team-desktop {
+        &__titlecontainer {
+            left: 11vw;
+        }
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .team-desktop {
+        &__titlecontainer {
+            left: 8.5vw;
+        }
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .team-desktop {
+        &__titlecontainer {
+            left: 5.5vw;
+        }
+    }
+}

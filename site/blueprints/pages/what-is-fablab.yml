@@ -1,0 +1,21 @@
+title: Wat is Fablab
+
+columns:
+  - width: 1/2
+    sections:
+    fields:
+      whatIsFablabTitle:
+        label: Wat is Fablab titel
+        type: text
+      whatIsFablabText:
+        label: Wat is Fablab text
+        type: writer
+        inline: true
+      
+      wordFablabTitle:
+        label: Van waar komt woord Fablab titel
+        type: text
+      wordFablabText:
+        label: Van waar komt het woord Fablab
+        type: writer
+        inline: true

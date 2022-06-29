@@ -1,0 +1,190 @@
+// MOBILE
+// GENERAL PARAGRAPHS
+.p {
+    font-family: $primary-font;
+    font-size: $p-big-font-size-mobile;
+    font-weight: normal;
+    margin: $p-margin-mobile;
+    line-height: $p-big-line-height;
+}
+
+
+
+// HOME
+.p-home {
+    padding-left: $margin-side-mobile;
+    padding-right: $margin-side-mobile;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+
+
+
+// ARTICLES
+.content-article {
+    &__text-wrapper {
+        &__p {
+            &__date {
+                margin: $p-margin-mobile;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                font-size: $p-small-font-size-mobile;
+                color: $neutrals-8;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+
+
+// WHAT IS FABLAB
+.introduction {
+    &__p {
+        padding-bottom: 70px;
+        font-weight: normal;
+    }
+}
+.team {
+    &__container {
+        &__biography {
+            margin-top: 5px;
+            font-weight: normal;
+        }
+    }
+}
+.team-desktop {
+    &__container {
+        &__function {
+            color: $neutrals-7;
+            font-weight: normal;
+        }
+    }
+}
+
+
+
+//BLOG
+.blog-wrapper {
+    &__blog-overview {
+        &__text-wrapper {
+            &__p {
+                padding: 8px 0;
+                white-space: pre-line;
+                font-weight: normal;
+            }
+        }
+    }
+}
+.content-article {
+    &__text-wrapper {
+        &__p {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+    }
+}
+
+
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+
+    // HOME
+    .p-home {
+        padding-left: $margin-side-tablet-portrait;
+        padding-right: $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+
+    // HOME
+    .p-home {
+        padding-left: $margin-side-tablet-landscape;
+        padding-right: $margin-side-tablet-landscape;
+    }
+}
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+
+    // HOME
+    .message {
+        &__paragraph {
+            width: 50%;
+        }
+    }
+    .p-home {
+        padding-left: $margin-side-desktop;
+        padding-right: $margin-side-desktop;
+        padding-bottom: 30px;
+    }
+
+    
+    
+    // CONTACT
+    .contact-container {
+        &__general {
+            &__paragraph {
+                width: 50%;
+            }
+        }
+    }
+
+    .content-article {
+        &__text-wrapper {
+            &__p {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+
+    // MACHINE
+    .category-wrapper {
+        &__designsoftware-wrapper {
+            &__paragraph {
+                width: 50%;
+            }
+        }
+    }
+}
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width:$desktop-hd) {
+
+    // HOME
+    .p-home {
+        padding-left: $margin-side-hd;
+    }
+}
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+
+    // HOME
+    .p-home {
+        padding-left: $margin-side-qhd;
+    }
+}
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+
+    // HOME
+    .p-home {
+        padding-left: $margin-side-4k;
+    }
+}

@@ -1,0 +1,493 @@
+.contact-tabscontainer {
+    &__title {
+        margin-left: $margin-side-mobile;
+        margin-right: $margin-side-mobile;
+    }
+}
+
+.tabscontainer {
+    .tabs-contact {
+        height: 93.5vh;
+        margin-top: 10px;
+    }
+
+    &__tabs {
+        width: 100%;
+        height: 93vh;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        border-radius: 15px;
+
+        &__tabheader {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            background-color: $neutrals-0;
+
+            .tabheader-item-contact {
+                height: 100% !important;
+                position: relative !important;
+
+                i {
+                    position: absolute;
+                    top: 34%;
+                    left: 42%;
+                    font-size: 18px;
+                }
+            }
+
+            &__item {
+                width: calc(100% / 2); //2 tabs in accordion
+                text-align: center;
+                color: $neutrals-7;
+                font-weight: 700;
+                cursor: pointer;
+                font-size: 14px;
+                text-transform: uppercase;
+                outline: none;
+                padding-top: 23px;
+                padding-bottom: 23px;
+            }
+
+            .active {
+                color: $primary;
+            }
+        }
+
+        .tabindicator {
+            position: relative;
+            height: 5px;
+            background: $primary;
+            left: 0px;
+            border-radius: 5px;
+            transition: all 500ms ease-in-out;
+        }
+
+        &__tabindicatorhome {
+            width: calc(100% / 2); //2 tabs in accordion
+        }
+
+        &__tabindicatorcontact {
+            width: calc(100% / 4); //4 tabs in accordion
+        }
+
+        .tabbody-contact {
+            display: block !important;
+
+            .active {
+                margin-top: 10px !important;
+            }
+
+            .tabbody-item-contact {
+                display: block !important;
+                padding-right: 32px !important;
+                margin-top: 20px !important;
+                position: absolute !important;
+            }
+        }
+
+        &__tabbody {
+            position: relative;
+            height: calc(100% - 60px); //60px is padding top
+            padding: 20px 16px;
+            border-radius: 0px 0px 15px 15px;
+            background-color: $neutrals-0;
+            margin: auto;
+
+            &__item {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+                padding-right: 32px;
+                position: absolute;
+                top: -200%;
+                opacity: 0;
+                margin-top: 20px;
+                transform: scale(0.9);
+                transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
+
+                div {
+                    position: relative;
+                    width: 19.5vw;
+                    height: 19.5vw;
+                }
+
+                &__title {
+                    margin-top: 0;
+                }
+
+                &__img {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    opacity: 1;
+                    left: 10px;
+                }
+            }
+
+            .active {
+                top: 0px;
+                opacity: 1;
+                transform: scale(1);
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 640px) {
+    .tabscontainer {
+        .tabs-contact {
+            height: 77vh;
+        }
+
+        &__tabs {
+            height: 88vh;
+        }
+    }
+}
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 730px) {
+    .tabscontainer {
+        .tabs-contact {
+            height: 60vh;
+        }
+    }
+}
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 800px) {
+    .tabscontainer {
+        .tabs-contact {
+            height: 57vh;
+        }
+    }
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .tabscontainer {
+        &__tabs {
+            height: 95vh;
+            margin-top: 50px;
+
+            &__tabbody {
+                padding: $margin-side-tablet-portrait;
+
+                &__item {
+                    &__img {
+                        left: 25px;
+                    }
+                }
+            }
+        }
+
+        .tabs-contact {
+            margin-bottom: 50px;
+            margin-top: 30px;
+        }
+    }
+
+    .contact-tabscontainer {
+        &__title {
+            margin-left: $margin-side-tablet-portrait;
+            margin-right: $margin-side-tablet-portrait;
+            margin-top: 50px;
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .contact-tabscontainer {
+        margin-left: 0;
+        padding-left: $margin-side-tablet-landscape;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 100px;
+
+        &__title {
+            margin: 0;
+        }
+    }
+    
+    .tabscontainer {
+        &__tabs {
+            height: 63vh;
+
+            &__tabbody {
+                &__item {
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 20px;
+
+                    &__img {
+                        left: 50px;
+                    }
+
+                    div {
+                        text-align: center;
+                        width: 8vw;
+                        height: 8vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: $desktop-1280) {
+    .contact-tabscontainer {
+        margin-left: 0;
+        padding-left: $margin-side-desktop;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 100px;
+
+        &__title {
+            margin: 0;
+        }
+    }
+
+    .home-tabscontainer {
+        margin-top: 100px;
+    }
+
+    .tabscontainer {
+        .tabs-contact {
+            height: 48vh;
+        }
+
+        &__tabs {
+            width: 100%;
+            height: 65vh;
+
+            .tabbody-contact {
+                .tabbody-item-contact {
+                    margin-top: 0px !important;
+                }
+            }
+
+            &__tabbody {
+                &__item {
+                    grid-template-columns: repeat(6, 1fr);
+                    gap: 20px;
+
+                    div {
+                        text-align: center;
+                        width: 7.5vw;
+                        height: 7.5vw;
+                    }
+
+                    &__img {
+                        opacity: 0.3;
+                        left: 35px;
+                    }
+
+                    &__img:hover {
+                        opacity: 1;
+                        transition: 0.5s;
+                        cursor: pointer;
+                    }
+                }
+
+                .active {
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        &__title {
+            margin-top: 0;
+        }
+    }
+}
+
+// DESKTOP - 1440PX
+@media only screen and (min-width: $desktop-1440) {
+    .tabscontainer {
+        .tabs-contact {
+            height: 38vh;
+        }
+
+        &__tabs {
+            width: 100%;
+            height: 47vh;
+
+            &__tabbody {
+                &__item {
+                    grid-template-columns: repeat(8, 1fr);
+
+                    div {
+                        text-align: center;
+                        width: 5.5vw;
+                        height: 5.5vw;
+                    }
+
+                    &__img {
+                        opacity: 0.3;
+                        left: 20px;
+                    }
+
+                    &__img:hover {
+                        opacity: 1;
+                        transition: 0.5s;
+                        cursor: pointer;
+                    }
+                }
+
+                .active {
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1536PX
+@media only screen and (min-width: $desktop-1536) {
+    .tabscontainer {
+        .tabs-contact {
+            height: 40vh;
+        }
+
+        &__tabs {
+            height: 57vh;
+
+            &__tabbody {
+                &__item {
+                    div {
+                        text-align: center;
+                        width: 5.5vw;
+                        height: 5.5vw;
+                    }
+
+                    &__img {
+                        left: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1600PX
+@media only screen and (min-width: $desktop-1600) {
+    .tabscontainer {
+        .tabs-contact {
+            height: 35vh;
+        }
+
+        &__tabs {
+            height: 50vh;
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .home-tabscontainer {
+        margin-left: $margin-side-hd;
+        margin-right: $margin-side-hd;
+    }
+    
+    .contact-tabscontainer {
+        padding-left: $margin-side-hd;
+    }
+
+    .tabscontainer {
+        .tabs-contact {
+            height: 32vh;
+        }
+
+        &__tabs {
+            height: 35.5vh;
+
+            &__tabbody {
+                &__item {
+                    gap: 15px;
+
+                    div {
+                        text-align: center;
+                        width: 3.75vw;
+                        height: 3.75vw;
+                    }
+
+                    &__img {
+                        left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    .home-tabscontainer {
+        margin-left: $margin-side-qhd;
+        margin-right: $margin-side-qhd;
+    }
+
+    .contact-tabscontainer {
+        padding-left: $margin-side-qhd;
+        width: 50%;
+    }
+
+    .tabscontainer {
+        .tabs-contact {
+            height: 25vh;
+        }
+
+        &__tabs {
+            height: 30.5vh;
+
+            &__tabbody {
+                &__item {
+                    div {
+                        width: 3vw;
+                        height: 3vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    .home-tabscontainer {
+        margin-left: $margin-side-4k;
+        margin-right: $margin-side-4k;
+    }
+    
+    .contact-tabscontainer {
+        padding-left: $margin-side-4k;
+    }
+
+    .tabscontainer {
+        .tabs-contact {
+            height: 17vh;
+        }
+
+        &__tabs {
+            height: 17.5vh;
+
+            &__tabbody {
+                &__item {
+                    div {
+                        width: 1.75vw;
+                        height: 1.75vw;
+                    }
+                }
+            }
+        }
+    }
+}
