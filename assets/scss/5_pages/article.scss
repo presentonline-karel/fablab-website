@@ -5,6 +5,29 @@
                 margin-bottom: 0;
             }
         }
+
+        &__a {
+            display: inline-block;
+            margin-top: 30px;
+        }
+
+        &__subphoto {
+            padding: 30px 0px 0px 0px;
+
+            img {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 3/2;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .youtube-video {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        margin-bottom: 10px;
     }
 }
 
@@ -14,10 +37,57 @@
     margin-bottom: 15px;
 }
 
-
-
+// DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .content-article {
         padding-right: 243px;
+        padding-left: 141px;
+        width: 100%;
+
+        &__title {
+            padding: 0px 100px;
+        }
+
+        &__image {
+            width: 100%;
+            height: auto !important;
+            aspect-ratio: 3/2;
+            object-fit: cover;
+        }
+
+        #myBtn {
+            padding: 10px 100px 0px 100px;
+        }
+
+        &__text-wrapper {
+            &__p {
+                padding: 0 100px;
+
+                &__date {
+                    padding: 0 100px;
+                }
+            }
+
+            &__a {
+                display: inline-block;
+                margin: 50px 100px 0px 100px;
+                border-bottom: 4px solid transparent;
+            }
+
+            &__subphoto {
+                padding: 30px 100px 0px 100px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 3/2;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .carousel {
+            padding: 0px 100px;
+        }
     }
 }

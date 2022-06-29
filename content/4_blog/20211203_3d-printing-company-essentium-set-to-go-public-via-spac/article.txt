@@ -2,17 +2,72 @@ Title: 3D printing company Essentium set to go public via SPAC
 
 ----
 
-Blogtext: The world of additive manufacturing is not immune from the SPAC craze. Desktop Metal, Shapeways, Markforged and Velo3D have all either completed or announced plans to go public through the process. Austin-based Essentium&nbsp;<a href="https://www.businesswire.com/news/home/20211201005494/en/Essentium-A-Disruptive-Advanced-Manufacturing-Ecosystem-Provider-to-Become-A-Public-Company-Through-Merger-with-Atlantic-Coastal-Acquisition-Corporation" target="_blank" rel="noopener noreferrer nofollow">this week highlighted plans</a>&nbsp;to add its name to the growing list, courtesy of a reverse merger with Atlantic Coastal Acquisition Corporation.<br><br>The deal would value the combined companies at $974 million, including $345 million in cash, courtesy of Atlantic Coastal. Essentium cites ongoing supply chain issues as a motivating factor in growing interest around additive manufacturing/3D printing.<br><br>“Fundamental deficits in our existing global supply chain models are being exacerbated by escalating obstacles such as trade imbalances and the global pandemic — all leading to protracted distribution bottlenecks,” CEO Blake Teipel said in a release. “Today’s announcement represents a major milestone in our efforts to provide long-term, sustainable solutions for a new manufacturing paradigm that can meet these global challenges head-on.”
+Blogtext: The world of additive manufacturing is not immune from the SPAC craze. Desktop Metal, Shapeways, Markforged and Velo3D have all either completed or announced plans to go public through the process. Austin-based Essentium <a href="https://www.businesswire.com/news/home/20211201005494/en/Essentium-A-Disruptive-Advanced-Manufacturing-Ecosystem-Provider-to-Become-A-Public-Company-Through-Merger-with-Atlantic-Coastal-Acquisition-Corporation" target="_blank" rel="noopener noreferrer nofollow">this week highlighted plans</a> to add its name to the growing list, courtesy of a reverse merger with Atlantic Coastal Acquisition Corporation.<br><br>The deal would value the combined companies at $974 million, including $345 million in cash, courtesy of Atlantic Coastal. Essentium cites ongoing supply chain issues as a motivating factor in growing interest around additive manufacturing/3D printing.<br><br>“Fundamental deficits in our existing global supply chain models are being exacerbated by escalating obstacles such as trade imbalances and the global pandemic — all leading to protracted distribution bottlenecks,” CEO Blake Teipel said in a release. “Today’s announcement represents a major milestone in our efforts to provide long-term, sustainable solutions for a new manufacturing paradigm that can meet these global challenges head-on.”
 
 ----
 
-Workshop: 
+Firstsubpicture:
+
+- >
+  bestcbd-review-5bestcbdkombucha-header-1024x565-1024x565.jpg
+
+----
+
+Firstsubblogtext: Shank ball tip fatback shankle t-bone frankfurter. Leberkas buffalo beef brisket ground round fatback, tenderloin sausage strip steak. Frankfurter jerky ball tip ground round filet mignon, swine meatball pork belly. Alcatra meatball frankfurter, landjaeger prosciutto andouille capicola ball tip t-bone chuck rump sausage bresaola pork chop pork loin. Turducken drumstick porchetta pancetta shoulder. Hamburger pork loin leberkas beef buffalo chislic.
+
+----
+
+Secondsubpicture:
+
+- belgaimage-54821448.jpg
+
+----
+
+Secondsubblogtext: Tail pork loin flank bresaola prosciutto ground round andouille. Filet mignon landjaeger boudin pork loin chuck t-bone shankle pancetta pork drumstick. Meatball pork chop shank buffalo bacon burgdoggen shankle tri-tip doner venison tongue pancetta. Jowl rump picanha, pastrami corned beef burgdoggen bresaola landjaeger meatball ground round andouille sirloin. Burgdoggen tenderloin tail prosciutto meatloaf short loin sirloin biltong sausage bacon filet mignon beef. Jowl sirloin tongue meatloaf tail rump andouille chislic pastrami pork loin tri-tip bresaola flank. Capicola meatball bresaola meatloaf, landjaeger pork pork chop porchetta ball tip burgdoggen jerky pig t-bone strip steak short loin.
+
+----
+
+Thirdsubpicture:
+
+- 1090185.jpg
+
+----
+
+Thirdsubblogtext: Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+
+----
+
+Workshop:
+
+- 
+  anchor: Test Workshop
+  link: https://google.com
 
 ----
 
 Related:
 
 - blog/test-2
+
+----
+
+Creations:
+
+- 
+  creationimage:
+    - 1090185.jpg
+  creationstext: Dit is Kombucha
+  creationscreator: Kombucha photo creator
+- 
+  creationimage:
+    - 3d-printing.jpg
+  creationstext: Dit is de FabLab banner image
+  creationscreator: Karel Decoene (tester)
+- 
+  creationimage:
+    - komboucha-1_1024x1024.jpg
+  creationstext: Even more combucha
+  creationscreator: Joske Vermeulen
 
 ----
 
@@ -25,3 +80,13 @@ Author:
 ----
 
 Tags: boeken
+
+----
+
+Bannerimg:
+
+- zelf-kombucha-maken-1-1.jpg
+
+----
+
+Youtubeurl: https://www.youtube.com/embed/mXvWTySpnH4

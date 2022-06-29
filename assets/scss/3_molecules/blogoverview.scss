@@ -51,6 +51,21 @@
             }
         }
     }
+
+    .blog-wrapper {
+        &__blog-overview {
+            a {
+                height: 100%;
+
+                .fix-buttons-flex {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
 }
 
 

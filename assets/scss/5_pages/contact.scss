@@ -57,9 +57,29 @@
 }
 
 // for contactform
-.alert {
-    margin-bottom: 25px;
-    font-weight: bold;
+.contactform-container {
+    position: relative;
+
+    .alert {
+        &.success {
+            text-align: center;
+            margin-bottom: 0px;
+            font-weight: bold;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 75%;
+            color: #30AB51;
+        }
+    
+        &.error {
+            margin-bottom: 25px;
+            font-weight: bold;
+            color: #f5360c;
+        }
+    }
 }
 
 .error {

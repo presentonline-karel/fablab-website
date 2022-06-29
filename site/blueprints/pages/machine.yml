@@ -32,6 +32,7 @@ columns:
             inline: true
           
           software:
+            label: Software
             type: url
           manual:
             type: url
@@ -64,10 +65,29 @@ columns:
             label: Supported File Types
             type: checkboxes
             options: query
-              pla: PLA
-              wood-filaments: Wood filaments
-              flex: Flex
-              pte: PTE
+              stl: STL
+              obj: OBJ
+              point-cloud-ply: Point Cloud - PLY
+              point-cloud-xyz: Point Cloud - XYZ
+              dae: DAE
+              ply: PLY
+              gITF2: gITF2
+              cdr: CDR
+              ai: AI
+              svg: SVG
+              cpt: CPT
+              ps: PS
+              bmp: BMP
+              jpg: JPG
+              tiff: TIFF
+              gif: GIF
+              png: PNG
+              pdf: PDF
+              eps: EPS
+              dxf: DXF
+              dwg: DWG
+              3dm: 3DM
+              v3m: V3M
 
       gallery:
         type: files

@@ -2,7 +2,11 @@ Title: BRM 90130 - 100/150W
 
 ----
 
-Type: Lasermachine
+Amount: 1
+
+----
+
+Type: Laser cutter 150W
 
 ----
 
@@ -10,23 +14,23 @@ Manufactur: BRM
 
 ----
 
-Buildvolume: 
+Buildvolume: 500m (test)
 
 ----
 
-Nozzle: 
+Nozzle: what is this
 
 ----
 
-Filament: 
+Filament: Plastic
 
 ----
 
-Layerheights: 
+Layerheights: 0-230 mm
 
 ----
 
-Layerresolution: 
+Layerresolution: HD
 
 ----
 
@@ -34,20 +38,37 @@ Bed: 88 x 128cm
 
 ----
 
+Extraspecs: hier kan nog wat extra info komen.<br>als je hier nog specs wil:<br>- price = € 500,00<br>- Weight = 500g
+
+----
+
 Software: https://vrotech.nl/machines/slim1300-100w/
 
 ----
 
-Manual: 
+Manual: https://www.google.com/
 
 ----
 
-Tutorials: 
+Tutorials:
+
+- 
+  title: Tutorial 1
+  url: >
+    https://www.youtube.com/watch?v=3LBTkLsjHGQ
+- 
+  title: Tutorial 2
+  url: >
+    https://www.youtube.com/watch?v=T-Z3GmM20JM
 
 ----
 
-Creation: 
+Creation: https://getkirby.com/
 
 ----
 
-Filetypes: 
+Isavailable: yes
+
+----
+
+Filetypes: pla, wood-filaments, flex, pte

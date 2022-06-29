@@ -4,6 +4,14 @@
     margin-right: $margin-side-mobile;
 }
 
+.machine-wrapper {
+    &__file-types {
+        .software-link {
+            text-decoration: underline;
+        }
+    }
+}
+
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
     .machine-image-wrapper {

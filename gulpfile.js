@@ -48,7 +48,7 @@ function server(cb) {
     browserSync.init({
         notify: false,
         open: false,
-        proxy: "http://localhost/fablab-website",
+        proxy: "http://localhost/fablabkdg.be",
         port: 4000
     })
     cb();

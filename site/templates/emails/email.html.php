@@ -1,4 +1,5 @@
-<p><?=$text?></p>
+Het contactformulier werd ingevuld door <b><?= $name ?></b><br><br>
 
-<p>Best,</p>
-<p><?=$sender?></p>
+<b>Email</b> <?= $email ?><br>
+
+<b>Boodschap</b> <?= $message ?><br>

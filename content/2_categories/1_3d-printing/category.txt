@@ -135,7 +135,7 @@ Thumbnail:
 
 ----
 
-Materialen: PLA, Flex, PETG
+Materialen: PLA, Flex, PETG, MDF, Triplex
 
 ----
 

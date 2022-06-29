@@ -21,6 +21,33 @@ columns:
         type: writer
         inline: true
 
+      firstSubPicture:
+        label: Eerste subfoto
+        type: files
+        max: 1
+      firstSubBlogText:
+        label: Eerste subparagraaf
+        type: writer
+        inline: true
+
+      secondSubPicture:
+        label: Tweede subfoto
+        type: files
+        max: 1
+      secondSubBlogText:
+        label: Tweede subparagraaf
+        type: writer
+        inline: true
+      
+      thirdSubPicture:
+        label: Derde subfoto
+        type: files
+        max: 1
+      thirdSubBlogText:
+        label: Derde subparagraaf
+        type: writer
+        inline: true
+
       workshop:
         label: Workshop
         type: structure
@@ -37,6 +64,23 @@ columns:
         type: pages
         query: page.siblings(true)
 
+      creations:
+        label: Extra foto's
+        type: structure
+        max: 8
+        fields:
+          creationImage:
+            label: Extra foto
+            type: files
+            max: 1
+            required: true
+          creationsText:
+            label: Extra foto bijschrift
+            type: text
+          creationsCreator:
+            label: Extra foto credits naar fotograaf
+            type: text
+
   sidebar:
     width: 1/3
     sections:
@@ -52,7 +96,16 @@ columns:
           tags:
             type: tags
       gallery:
-        type: files
-        layout: cards
-        image:
-          max: 1
+        type: fields
+        fields:
+          bannerImg:
+            label: Grote foto bovenaan
+            type: files
+            layout: cards
+            max: 1
+      video:
+        type: fields
+        fields:
+          youtubeUrl:
+            label: Youtube video (embed url)
+            type: text

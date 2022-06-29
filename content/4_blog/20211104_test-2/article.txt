@@ -6,6 +6,30 @@ Blogtext:
 
 ----
 
+Firstsubpicture: 
+
+----
+
+Firstsubblogtext: 
+
+----
+
+Secondsubpicture: 
+
+----
+
+Secondsubblogtext: 
+
+----
+
+Thirdsubpicture: 
+
+----
+
+Thirdsubblogtext: 
+
+----
+
 Workshop: 
 
 ----
@@ -14,17 +38,29 @@ Related:
 
 ----
 
+Creations: 
+
+----
+
 Date: 2021-11-04
 
 ----
 
-Author:
-
-- 4DjjyD4W
+Author: 
 
 ----
 
 Tags: test, 3d-printer, boeken, laser-cutter, vr-bril
+
+----
+
+Bannerimg:
+
+- lr-19.jpg
+
+----
+
+Youtubeurl: https://www.youtube.com/embed/mXvWTySpnH4
 
 ----
 

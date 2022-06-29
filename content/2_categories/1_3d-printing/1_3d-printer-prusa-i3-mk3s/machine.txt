@@ -70,7 +70,7 @@ Isavailable: no
 
 ----
 
-Filetypes: pla, flex
+Filetypes: stl, obj, cdr, ai, png, pdf
 
 ----
 

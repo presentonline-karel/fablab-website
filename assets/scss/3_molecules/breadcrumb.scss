@@ -37,6 +37,12 @@
     .breadcrump-margin {
         margin-left: $margin-side-desktop;
     }
+
+    .breadcrumb-item:hover {
+        a {
+            color: $neutrals-9;
+        }
+    }
 }
 
 

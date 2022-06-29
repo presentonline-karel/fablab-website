@@ -1,5 +1,8 @@
 .img-related {
     border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
 }
 
 .h2-related {
@@ -29,11 +32,17 @@
 @media screen and (min-width: $desktop-1280) {
     .article-wrapper {
         .related-articles {
+            margin-top: 100px;
+            
             .blog-wrapper-related {
                 margin-top: 20px;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 gap: 30px;
+            }
+
+            &__title {
+                margin-top: 0;
             }
         }
     }
